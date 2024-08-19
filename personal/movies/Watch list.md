@@ -2,7 +2,7 @@
 - [ ] Near Dark
 - [ ] Showgirls
 - [ ] Friday (1995)
-a- [ ] Anything Else (2003)
+- [ ] Anything Else (2003)
 - [ ] A Man Called Horse (1970)
 - [ ] House of Dark Shadows (1970)
 - [ ] The Texas Chainsaw Massacre (1974)
