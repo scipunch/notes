@@ -1,0 +1,173 @@
+{
+  "main": {
+    "id": "3aa32b185665e71f",
+    "type": "split",
+    "children": [
+      {
+        "id": "7530f5df27736223",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1510e17f10ecf557",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "personal/movies/Watch list.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e9e1de95fa556384",
+    "type": "split",
+    "children": [
+      {
+        "id": "028be96695e9edc4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7ab6ced7fb8b84de",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "33a1144f07296381",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9c133477cd826a30",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b7a282d019526aa3",
+    "type": "split",
+    "children": [
+      {
+        "id": "cdf820f4d6667932",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1f1fb188bec187d8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "personal/movies/Watch list.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "afdcfbb0dfdbcf61",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "personal/movies/Watch list.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a6ba6e66230a17ed",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f8016345f52d43f9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "personal/movies/Watch list.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "periodic-notes:Open today": false
+    }
+  },
+  "active": "1510e17f10ecf557",
+  "lastOpenFiles": [
+    "projects/haas/index.md",
+    "personal/movies/Watch list.md",
+    "personal/movies/reviews/chungking_express.md",
+    "templates/weekly/1721727997-OQSC.md",
+    "templates/weekly/Weekly Planning.md~",
+    "templates/weekly/Weekly Planning.md",
+    "templates/weekly",
+    "planning/W30-2024.md",
+    "planning",
+    "work/haas/index.md",
+    "wiki/index.md",
+    "templates/Post.md",
+    "projects/capture_serbia/index.md",
+    "personal/reading_list.md",
+    "create a link.md",
+    "Welcome.md",
+    "4913",
+    "templates",
+    "1706444035-BXTY.md",
+    "1706443834-HDDV.md"
+  ]
+}

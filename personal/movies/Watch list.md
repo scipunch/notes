@@ -1,0 +1,66 @@
+- [ ] Sisters
+- [ ] Near Dark
+- [ ] Showgirls
+- [ ] Friday (1995)
+a- [ ] Anything Else (2003)
+- [ ] A Man Called Horse (1970)
+- [ ] House of Dark Shadows (1970)
+- [ ] The Texas Chainsaw Massacre (1974)
+- [ ] Eaten Alive (1976)
+- [ ] Nightmare Alley (1957)
+- [ ] Young Frankenstein (1974)
+- [ ] Back to the Future (1985)
+- [ ] Rolling Thunder (1977)
+- [ ] Matador (1986)
+- [ ] The Great Silence (1968)
+- [ ] The Thing (1982)
+- [ ] The Wild Bunch
+- [ ] Top Gun: Maverick
+- [ ] Rio Bravo
+- [ ] Blow Out
+- [ ] West Side Story (2021)
+- [ ] Unfaithfully Yours
+- [ ] The Good, the Bad and the Ugly
+- [ ] Abbott and Costello Meet Frankenstein
+- [ ] Dunkirk
+- [ ] Black Sabbath
+- [ ] Deep Red
+- [ ] The Social Network
+- [ ] Easy Rider
+- [ ] Apocalypse Now
+- [ ] Audition
+- [ ] Joint Security Area
+- [ ] The Insider
+- [ ] Lost in Translation
+- [ ] The Bad News Bears
+- [ ] Battle Royale
+- [ ] Boogie Nights
+- [ ] Carrie
+- [ ] Dazed and Confused
+- [ ] Dogville
+- [ ] Enter the Void
+- [ ] Fight Club
+- [ ] Frances Ha
+- [ ] The Great Escape
+- [ ] The Host
+- [ ] His Girl Friday
+- [ ] Jaws
+- [ ] Mad Max: Fury Road
+- [ ] The Matrix
+- [ ] Memories of Murder
+- [ ] Police Story 3: Super Cop
+- [ ] Shaun Of The Dead
+- [ ] The Skin I Live In
+- [ ] Sorcerer
+- [ ] Speed
+- [ ] Taxi Driver
+- [ ] Team America: World Police
+- [ ] There Will Be Blood
+- [ ] Toy Story 3
+- [ ] Unbreakable
+- [ ] Ghosts of Girlfriends Past
+- [ ] You've Got Mail
+- [ ] The Blade
+- [ ] Most Popular
+- [ ] You may also like
+- [ ] Privacy Preference Center
