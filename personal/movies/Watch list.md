@@ -1,4 +1,7 @@
-- [x] Chungking express 
+| Watched                 | Movie name  | Review |
+| ----------------------- | ---------- | ------ |
+| <input type="checkbox"> |             |        |
+- [x] Chungking express
 - [x] Murder on the Orient Express
 - [ ] Sisters
 - [ ] Near Dark
