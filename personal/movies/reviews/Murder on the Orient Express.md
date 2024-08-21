@@ -1,10 +1,12 @@
 ---
 share_link: https://share.note.sx/6wiiyqrx#1b2h5Bry9bJzloFBKMBl6pZ4+9ACFhZdhQyH/XQysww
-share_updated: 2024-08-21T10:45:57+08:00
+share_updated: 2024-08-21T10:57:00+08:00
 tags:
   - movie-review
+image: app://c74e772352f3bc941e23103e9abd01288edb/home/suzu/notes/personal/movies/images/Murder%20on%20the%20Orinet%20Express.png?1724201719769
 ---
-![]
+
+![Murder on the Orinet Express.png](app://c74e772352f3bc941e23103e9abd01288edb/home/suzu/notes/personal/movies/images/Murder%20on%20the%20Orinet%20Express.png?1724201719769)
 ## Introduction
 Murder on the Orient Express was released in 2017. It's a second (the first one was in 1974) film adaptation of the Agatha Christie's novel of the same name. Also there are a lot of famous actors in the movie, so it definitely deserves a shot.
 

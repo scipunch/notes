@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "personal/movies/reviews/Murder on the Orient Express.md",
+                "file": "personal/movies/reviews/Chungking Express.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "personal/movies/reviews/Murder on the Orient Express.md",
+                "file": "personal/movies/reviews/Chungking Express.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "personal/movies/reviews/Murder on the Orient Express.md",
+                "file": "personal/movies/reviews/Chungking Express.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "personal/movies/reviews/Murder on the Orient Express.md"
+                "file": "personal/movies/reviews/Chungking Express.md"
               }
             }
           }
@@ -144,17 +144,18 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "periodic-notes:Open today": false
+      "periodic-notes:Open today": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1510e17f10ecf557",
+  "active": "7ab6ced7fb8b84de",
   "lastOpenFiles": [
+    "personal/movies/reviews/Murder on the Orient Express.md",
     "personal/movies/images/Murder on the Orinet Express.png",
     "personal/movies/images",
     "personal/movies/Frame 1 (1).png",
-    "personal/movies/reviews/chungking_express.md",
+    "personal/movies/reviews/Chungking Express.md",
     "personal/movies/Watch list.md",
-    "personal/movies/reviews/Murder on the Orient Express.md",
     "personal/movies/reviews/1724035931-SIKZ.md",
     "projects/haas/index.md",
     "templates/weekly/1721727997-OQSC.md",
