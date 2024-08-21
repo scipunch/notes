@@ -2,6 +2,7 @@
 tags:
   - movie-review
 ---
+![Chungking Express.png](app://c74e772352f3bc941e23103e9abd01288edb/home/suzu/notes/personal/movies/images/Chungking%20Express.png?1723973727432)
 # Introduction
 Chungking Express was released in *1994*, directed by Wong Kar-Wai, and tells two love stories. It has been regarded as one of Kar-Wai's finest works, one of the best films of all time, as well as one of the best anthologies and romantic comedies ever made (where? Founded on a wiki).
 
