@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "personal/movies/Watch list.md",
+                "file": "personal/movies/reviews/Murder on the Orient Express.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "personal/movies/Watch list.md",
+                "file": "personal/movies/reviews/Murder on the Orient Express.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "personal/movies/Watch list.md",
+                "file": "personal/movies/reviews/Murder on the Orient Express.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "personal/movies/Watch list.md"
+                "file": "personal/movies/reviews/Murder on the Orient Express.md"
               }
             }
           }
@@ -150,9 +150,10 @@
   },
   "active": "1510e17f10ecf557",
   "lastOpenFiles": [
-    "personal/movies/reviews/Murder on the Orient Express.md",
-    "personal/movies/Watch list.md",
     "personal/movies/reviews/Chungking Express.md",
+    "personal/movies/reviews/Murder on the Orient Express.md",
+    "Untitled.canvas",
+    "personal/movies/Watch list.md",
     "personal/movies/images/Chungking Express.png",
     "personal/movies/images/Murder on the Orinet Express.png",
     "personal/movies/images",

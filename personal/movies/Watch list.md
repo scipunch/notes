@@ -1,8 +1,9 @@
+
 | Watched                         | Movie name                            | Review                           |
 | ------------------------------- | ------------------------------------- | -------------------------------- |
 | <input type="checkbox" checked> | Chungking express                     | [[Chungking Express]]            |
 | <input type="checkbox" checked> | Murder on the Orient Express          | [[Murder on the Orient Express]] |
-| <input type="checkbox">         | Sisters                               |                                  |
+| <input type="checkbox" >        | Sisters                               |                                  |
 | <input type="checkbox">         | Near Dark                             |                                  |
 | <input type="checkbox">         | Showgirls                             |                                  |
 | <input type="checkbox">         | Friday (1995)                         |                                  |
