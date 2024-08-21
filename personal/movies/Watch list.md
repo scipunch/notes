@@ -1,3 +1,5 @@
+- [x] Chungking express 
+- [x] Murder on the Orient Express
 - [ ] Sisters
 - [ ] Near Dark
 - [ ] Showgirls

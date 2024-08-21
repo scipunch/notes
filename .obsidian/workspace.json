@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "personal/movies/reviews/chungking_express.md",
+                "file": "personal/movies/Watch list.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "personal/movies/reviews/chungking_express.md",
+                "file": "personal/movies/Watch list.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "personal/movies/reviews/chungking_express.md",
+                "file": "personal/movies/Watch list.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "personal/movies/reviews/chungking_express.md"
+                "file": "personal/movies/Watch list.md"
               }
             }
           }
@@ -149,10 +149,11 @@
   },
   "active": "1510e17f10ecf557",
   "lastOpenFiles": [
+    "personal/movies/reviews/Murder on the Orient Express.md",
+    "personal/movies/reviews/chungking_express.md",
     "personal/movies/reviews/1724035931-SIKZ.md",
     "personal/movies/Watch list.md",
     "projects/haas/index.md",
-    "personal/movies/reviews/chungking_express.md",
     "templates/weekly/1721727997-OQSC.md",
     "templates/weekly/Weekly Planning.md~",
     "templates/weekly/Weekly Planning.md",
