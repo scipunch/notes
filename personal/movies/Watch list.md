@@ -1,71 +1,71 @@
-| Watched                 | Movie name  | Review |
-| ----------------------- | ---------- | ------ |
-| <input type="checkbox"> |             |        |
-- [x] Chungking express
-- [x] Murder on the Orient Express
-- [ ] Sisters
-- [ ] Near Dark
-- [ ] Showgirls
-- [ ] Friday (1995)
-- [ ] Anything Else (2003)
-- [ ] A Man Called Horse (1970)
-- [ ] House of Dark Shadows (1970)
-- [ ] The Texas Chainsaw Massacre (1974)
-- [ ] Eaten Alive (1976)
-- [ ] Nightmare Alley (1957)
-- [ ] Young Frankenstein (1974)
-- [ ] Back to the Future (1985)
-- [ ] Rolling Thunder (1977)
-- [ ] Matador (1986)
-- [ ] The Great Silence (1968)
-- [ ] The Thing (1982)
-- [ ] The Wild Bunch
-- [ ] Top Gun: Maverick
-- [ ] Rio Bravo
-- [ ] Blow Out
-- [ ] West Side Story (2021)
-- [ ] Unfaithfully Yours
-- [ ] The Good, the Bad and the Ugly
-- [ ] Abbott and Costello Meet Frankenstein
-- [ ] Dunkirk
-- [ ] Black Sabbath
-- [ ] Deep Red
-- [ ] The Social Network
-- [ ] Easy Rider
-- [ ] Apocalypse Now
-- [ ] Audition
-- [ ] Joint Security Area
-- [ ] The Insider
-- [ ] Lost in Translation
-- [ ] The Bad News Bears
-- [ ] Battle Royale
-- [ ] Boogie Nights
-- [ ] Carrie
-- [ ] Dazed and Confused
-- [ ] Dogville
-- [ ] Enter the Void
-- [ ] Fight Club
-- [ ] Frances Ha
-- [ ] The Great Escape
-- [ ] The Host
-- [ ] His Girl Friday
-- [ ] Jaws
-- [ ] Mad Max: Fury Road
-- [ ] The Matrix
-- [ ] Memories of Murder
-- [ ] Police Story 3: Super Cop
-- [ ] Shaun Of The Dead
-- [ ] The Skin I Live In
-- [ ] Sorcerer
-- [ ] Speed
-- [ ] Taxi Driver
-- [ ] Team America: World Police
-- [ ] There Will Be Blood
-- [ ] Toy Story 3
-- [ ] Unbreakable
-- [ ] Ghosts of Girlfriends Past
-- [ ] You've Got Mail
-- [ ] The Blade
-- [ ] Most Popular
-- [ ] You may also like
-- [ ] Privacy Preference Center
+| Watched                         | Movie name                            | Review                           |
+| ------------------------------- | ------------------------------------- | -------------------------------- |
+| <input type="checkbox" checked> | Chungking express                     | [[Chungking Express]]            |
+| <input type="checkbox" checked> | Murder on the Orient Express          | [[Murder on the Orient Express]] |
+| <input type="checkbox">         | Sisters                               |                                  |
+| <input type="checkbox">         | Near Dark                             |                                  |
+| <input type="checkbox">         | Showgirls                             |                                  |
+| <input type="checkbox">         | Friday (1995)                         |                                  |
+| <input type="checkbox">         | Anything Else (2003)                  |                                  |
+| <input type="checkbox">         | A Man Called Horse (1970)             |                                  |
+| <input type="checkbox">         | House of Dark Shadows (1970)          |                                  |
+| <input type="checkbox">         | The Texas Chainsaw Massacre (1974)    |                                  |
+| <input type="checkbox">         | Eaten Alive (1976)                    |                                  |
+| <input type="checkbox">         | Nightmare Alley (1957)                |                                  |
+| <input type="checkbox">         | Young Frankenstein (1974)             |                                  |
+| <input type="checkbox">         | Back to the Future (1985)             |                                  |
+| <input type="checkbox">         | Rolling Thunder (1977)                |                                  |
+| <input type="checkbox">         | Matador (1986)                        |                                  |
+| <input type="checkbox">         | The Great Silence (1968)              |                                  |
+| <input type="checkbox">         | The Thing (1982)                      |                                  |
+| <input type="checkbox">         | The Wild Bunch                        |                                  |
+| <input type="checkbox">         | Top Gun: Maverick                     |                                  |
+| <input type="checkbox">         | Rio Bravo                             |                                  |
+| <input type="checkbox">         | Blow Out                              |                                  |
+| <input type="checkbox">         | West Side Story (2021)                |                                  |
+| <input type="checkbox">         | Unfaithfully Yours                    |                                  |
+| <input type="checkbox">         | The Good, the Bad and the Ugly        |                                  |
+| <input type="checkbox">         | Abbott and Costello Meet Frankenstein |                                  |
+| <input type="checkbox">         | Dunkirk                               |                                  |
+| <input type="checkbox">         | Black Sabbath                         |                                  |
+| <input type="checkbox">         | Deep Red                              |                                  |
+| <input type="checkbox">         | The Social Network                    |                                  |
+| <input type="checkbox">         | Easy Rider                            |                                  |
+| <input type="checkbox">         | Apocalypse Now                        |                                  |
+| <input type="checkbox">         | Audition                              |                                  |
+| <input type="checkbox">         | Joint Security Area                   |                                  |
+| <input type="checkbox">         | The Insider                           |                                  |
+| <input type="checkbox">         | Lost in Translation                   |                                  |
+| <input type="checkbox">         | The Bad News Bears                    |                                  |
+| <input type="checkbox">         | Battle Royale                         |                                  |
+| <input type="checkbox">         | Boogie Nights                         |                                  |
+| <input type="checkbox">         | Carrie                                |                                  |
+| <input type="checkbox">         | Dazed and Confused                    |                                  |
+| <input type="checkbox">         | Dogville                              |                                  |
+| <input type="checkbox">         | Enter the Void                        |                                  |
+| <input type="checkbox">         | Fight Club                            |                                  |
+| <input type="checkbox">         | Frances Ha                            |                                  |
+| <input type="checkbox">         | The Great Escape                      |                                  |
+| <input type="checkbox">         | The Host                              |                                  |
+| <input type="checkbox">         | His Girl Friday                       |                                  |
+| <input type="checkbox">         | Jaws                                  |                                  |
+| <input type="checkbox">         | Mad Max: Fury Road                    |                                  |
+| <input type="checkbox">         | The Matrix                            |                                  |
+| <input type="checkbox">         | Memories of Murder                    |                                  |
+| <input type="checkbox">         | Police Story 3: Super Cop             |                                  |
+| <input type="checkbox">         | Shaun Of The Dead                     |                                  |
+| <input type="checkbox">         | The Skin I Live In                    |                                  |
+| <input type="checkbox">         | Sorcerer                              |                                  |
+| <input type="checkbox">         | Speed                                 |                                  |
+| <input type="checkbox">         | Taxi Driver                           |                                  |
+| <input type="checkbox">         | Team America: World Police            |                                  |
+| <input type="checkbox">         | There Will Be Blood                   |                                  |
+| <input type="checkbox">         | Toy Story 3                           |                                  |
+| <input type="checkbox">         | Unbreakable                           |                                  |
+| <input type="checkbox">         | Ghosts of Girlfriends Past            |                                  |
+| <input type="checkbox">         | You've Got Mail                       |                                  |
+| <input type="checkbox">         | The Blade                             |                                  |
+| <input type="checkbox">         | Most Popular                          |                                  |
+| <input type="checkbox">         | You may also like                     |                                  |
+| <input type="checkbox">         | Privacy Preference Center             |                                  |
+| <input type="checkbox">         |                                       |                                  |

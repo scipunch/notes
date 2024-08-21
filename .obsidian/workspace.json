@@ -15,7 +15,7 @@
               "state": {
                 "file": "personal/movies/Watch list.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -150,9 +150,9 @@
   },
   "active": "1510e17f10ecf557",
   "lastOpenFiles": [
-    "personal/movies/reviews/Chungking Express.md",
     "personal/movies/reviews/Murder on the Orient Express.md",
     "personal/movies/Watch list.md",
+    "personal/movies/reviews/Chungking Express.md",
     "personal/movies/images/Chungking Express.png",
     "personal/movies/images/Murder on the Orinet Express.png",
     "personal/movies/images",
