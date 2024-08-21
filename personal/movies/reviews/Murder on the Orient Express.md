@@ -1,6 +1,6 @@
 ---
-share_link: https://share.note.sx/l7kyu8qu#o1l+k3zBA0ZRlvAGyteKC6Y51E7oRqGjV44DdXzAGt0
-share_updated: 2024-08-21T10:44:13+08:00
+share_link: https://share.note.sx/6wiiyqrx#1b2h5Bry9bJzloFBKMBl6pZ4+9ACFhZdhQyH/XQysww
+share_updated: 2024-08-21T10:45:57+08:00
 ---
 # Introduction
 Murder on the Orient Express was released in 2017. It's a second (the first one was in 1974) film adaptation of the Agatha Christie's novel of the same name. Also there are a lot of famous actors in the movie, so it definitely deserves a shot.
