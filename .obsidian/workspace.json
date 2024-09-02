@@ -20,24 +20,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "7530f5df27736223",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "28a480263ca77344",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "projects/cyberpass/Technical requirements V2.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"

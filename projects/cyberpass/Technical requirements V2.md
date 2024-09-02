@@ -3,6 +3,7 @@ actor Customer
 actor Manager
 participant System
 database Database
+actor PyamentSystem
 
 autonumber
 Customer -> System : Scan QR-code
@@ -16,4 +17,6 @@ alt empty customer email
 	Customer -> System : Update email
 	System -> Database : Update customer's email
 end
+Customer -> PaymentSystem : Payment
+PaymentSystem -> Customer : Redirect to the payed url
 ```
