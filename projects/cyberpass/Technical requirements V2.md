@@ -23,4 +23,4 @@ Customer -> System : Payment successful
 System -> Database : Update customer's balance & save transaction
 System -> Manager : Publish pdated balance
 ```
-1. What if customer canceled redirect to the `success payment` url?
+1. What if the customer will cancel a redirect to the `success payment` URL?
