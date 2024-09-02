@@ -32,7 +32,7 @@
               "type": "markdown",
               "state": {
                 "file": "projects/cyberpass/Technical requirements V2.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -167,7 +167,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "28a480263ca77344",
+  "active": "929fc76e309cca58",
   "lastOpenFiles": [
     "personal/movies/reviews/Murder on the Orient Express.md",
     "projects/cyberpass/Technical requirements V2.md",
