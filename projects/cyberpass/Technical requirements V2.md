@@ -19,4 +19,7 @@ alt empty customer email
 end
 Customer -> PaymentSystem : Payment
 PaymentSystem -> Customer : Redirect to the payed url
+Customer -> System : Payment successful
+System -> Database : Update customer's balance & save transaction
+System -> Manager : Publish pdated balance
 ```
