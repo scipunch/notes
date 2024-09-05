@@ -15,6 +15,9 @@ alt Tablet
 else PC
 	System -> Manager : Show QR-code on the special page
 end
+note right
+	QR-code consists of a UUID4 pinned to the client's id and purchase details
+end note
 Customer -> System : Get cart info
 alt empty customer email
 	System -> Customer : Request email for the bill
@@ -32,3 +35,4 @@ System -> Manager : Publish pdated balance
 ```
 1. What if the customer will cancel a redirect to the `success payment` URL?
 2. QR-code design
+
