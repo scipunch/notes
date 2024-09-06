@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/cyberpass/Technical requirements V2.md",
+                "file": "personal/Self growth/Goals.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "b7a282d019526aa3",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "projects/cyberpass/Technical requirements V2.md",
+                "file": "personal/Self growth/Goals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "projects/cyberpass/Technical requirements V2.md",
+                "file": "personal/Self growth/Goals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "projects/cyberpass/Technical requirements V2.md"
+                "file": "personal/Self growth/Goals.md"
               }
             }
           }
@@ -151,9 +150,11 @@
   },
   "active": "929fc76e309cca58",
   "lastOpenFiles": [
+    "projects/cyberpass/Technical requirements V2.md",
+    "personal/Self growth/Goals.md",
+    "personal/Self growth",
     "projects/cyberpass/Technical requirements V2-2024-09-02-08-56-05.png",
     "personal/movies/reviews/Murder on the Orient Express.md",
-    "projects/cyberpass/Technical requirements V2.md",
     "projects/cyberpass",
     "personal/movies/reviews/Chungking Express.md",
     "personal/movies/Watch list.md",
