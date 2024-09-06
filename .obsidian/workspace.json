@@ -20,6 +20,24 @@
             }
           }
         ]
+      },
+      {
+        "id": "ca77195dcadc498b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "70745d9c4b8d7b0f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "personal/Self growth/Become Korean Citizen.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -148,10 +166,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "929fc76e309cca58",
+  "active": "7ab6ced7fb8b84de",
   "lastOpenFiles": [
-    "projects/cyberpass/Technical requirements V2.md",
+    "personal/Self growth/Become Korean Citizen.md",
     "personal/Self growth/Goals.md",
+    "projects/cyberpass/Technical requirements V2.md",
     "personal/Self growth",
     "projects/cyberpass/Technical requirements V2-2024-09-02-08-56-05.png",
     "personal/movies/reviews/Murder on the Orient Express.md",
