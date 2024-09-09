@@ -5,4 +5,3 @@
 	- [ ] Setup CV
 	- [ ] Prepare for the interviews
 	- [ ] Get offer
-	
