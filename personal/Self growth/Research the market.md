@@ -21,4 +21,4 @@ Done with `linkedin-jobs-scraper` Python package.
 ### Responsibilities classification
 > Try to use ChatGPT to decide if the given responsibilities will be OK for me by describing to it my experience, wishes and red flags.
 
- Does binary classification is right here?
+ Does binary classification is right here?
