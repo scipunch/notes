@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "personal/Self growth/Become Korean citizen.md",
+                "file": "personal/Self growth/Research the market.md",
                 "mode": "source",
                 "source": false
               }
@@ -67,8 +67,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -197,11 +196,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "d7b9c6929e33ca0c",
+  "active": "929fc76e309cca58",
   "lastOpenFiles": [
-    "personal/Self growth/Goals.md",
-    "personal/Self growth/Research the market.md",
     "personal/Self growth/Become Korean citizen.md",
+    "personal/Self growth/Research the market.md",
+    "personal/Self growth/Goals.md",
     "personal/Books/Fluent python.md",
     "personal/reading_list.md",
     "personal/Books",
