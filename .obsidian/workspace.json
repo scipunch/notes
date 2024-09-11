@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "personal/Books/Fluent python.md",
+                "file": "personal/Self growth/Become Korean citizen.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d7b9c6929e33ca0c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "personal/Self growth/Research the market.md",
                 "mode": "source",
                 "source": false
               }
@@ -55,7 +67,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -121,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "personal/Books/Fluent python.md",
+                "file": "personal/Self growth/Research the market.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "personal/Books/Fluent python.md",
+                "file": "personal/Self growth/Research the market.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "personal/Books/Fluent python.md"
+                "file": "personal/Self growth/Research the market.md"
               }
             }
           }
@@ -184,12 +197,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "929fc76e309cca58",
+  "active": "d7b9c6929e33ca0c",
   "lastOpenFiles": [
-    "personal/reading_list.md",
-    "personal/Books/Fluent python.md",
-    "personal/Books",
     "personal/Self growth/Become Korean citizen.md",
+    "personal/Self growth/Research the market.md",
+    "personal/Books/Fluent python.md",
+    "personal/reading_list.md",
+    "personal/Books",
     "personal/Self growth/Goals.md",
     "personal/Self growth/Get 1k followers on x.com.md",
     "personal/Self growth/Get big arms.md",
@@ -223,7 +237,6 @@
     "templates/Post.md",
     "projects/capture_serbia/index.md",
     "create a link.md",
-    "Welcome.md",
     "4913",
     "templates"
   ]

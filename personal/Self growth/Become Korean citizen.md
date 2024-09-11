@@ -1,6 +1,6 @@
 - [ ] Learn language
 - [ ] Find a job
-	- [ ] Research the market
+	- [ ] [[Research the market]]
 	- [ ] Find sweet spots
 	- [ ] Setup CV
 	- [ ] Prepare for the interviews
