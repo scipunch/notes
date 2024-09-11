@@ -1,3 +1,4 @@
+- [x] Scrape LinkedIn jobs
 - [x] Define core features of the dataset
 - [ ] Classify data based on the defined features
 	- [ ] Core responsibilities classification
@@ -5,6 +6,7 @@
 # Log
 ## Scrape LinkedIn
 Done with `linkedin-jobs-scraper` Python package.
+💡 Jobs in Korean lang could be translated with [googletrans](https://pypi.org/project/googletrans/)
 ## Core features of the dataset
 
 | Feature            | Description                                             |
@@ -24,3 +26,5 @@ Done with `linkedin-jobs-scraper` Python package.
 ❓How to make fancier classification?
 
 [Several ideas about classification with LLMs](https://community.openai.com/t/classification-with-generative-models/600277)
+
+## Required skills & keywords extraction
