@@ -3,6 +3,7 @@
 - [ ] https://norvig.com/lispy.html
 - [ ] https://pythontutor.com/
 - [ ] https://docs.python.org/3/library/dis.html
+- [ ] https://www.fluentpython.com/extra/ordered-sequences-with-bisect/
 
 ## Notes
 
