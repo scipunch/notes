@@ -1,6 +1,8 @@
-## Reading list
+## Links to checkout
 - [ ] https://github.com/gvanrossum/patma
 - [ ] https://norvig.com/lispy.html
+- [ ] https://pythontutor.com/
+- [ ] https://docs.python.org/3/library/dis.html
 
 ## Notes
 
@@ -11,3 +13,4 @@
 | 32   | But if one of<br>those references points to a mutable object, and that object is changed, then the value<br>of the tuple changes                                                                                                                                                                                                                                                                 |
 | 42   | `case [str(name), _, _, (float(lat), float(lon))]:` - runtime type check in match statement                                                                                                                                                                                                                                                                                                      |
 | 46   | ![[Pasted image 20240912170903.png]]                                                                                                                                                                                                                                                                                                                                                             |
+| 55   | ![[Pasted image 20240912175657.png]]                                                                                                                                                                                                                                                                                                                                                             |
