@@ -4,6 +4,7 @@
 - [ ] https://pythontutor.com/
 - [ ] https://docs.python.org/3/library/dis.html
 - [ ] https://www.fluentpython.com/extra/ordered-sequences-with-bisect/
+- [ ] https://www.fluentpython.com/extra/parsing-binary-struct/
 
 ## Notes
 
