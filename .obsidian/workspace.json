@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "personal/Self growth/Research the market.md",
+                "file": "personal/Books/Fluent python.md",
                 "mode": "source",
                 "source": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "personal/Self growth/Research the market.md",
+                "file": "personal/Books/Fluent python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "personal/Self growth/Research the market.md",
+                "file": "personal/Books/Fluent python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "personal/Self growth/Research the market.md"
+                "file": "personal/Books/Fluent python.md"
               }
             }
           }
@@ -198,8 +198,8 @@
   },
   "active": "929fc76e309cca58",
   "lastOpenFiles": [
-    "personal/Self growth/Become Korean citizen.md",
     "personal/Self growth/Research the market.md",
+    "personal/Self growth/Become Korean citizen.md",
     "personal/Self growth/Goals.md",
     "personal/Books/Fluent python.md",
     "personal/reading_list.md",
