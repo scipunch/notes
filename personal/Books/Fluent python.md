@@ -7,6 +7,7 @@
 - [ ] https://www.fluentpython.com/extra/parsing-binary-struct/
 - [ ] https://nedbatchelder.com/blog/202006/pickles_nine_flaws.html
 - [ ] https://www.fluentpython.com/extra/internals-of-sets-and-dicts/
+- [ ] https://peps.python.org/pep-0412/
 
 ## Notes
 
