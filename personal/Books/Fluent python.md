@@ -5,6 +5,7 @@
 - [ ] https://docs.python.org/3/library/dis.html
 - [ ] https://www.fluentpython.com/extra/ordered-sequences-with-bisect/
 - [ ] https://www.fluentpython.com/extra/parsing-binary-struct/
+- [ ] https://nedbatchelder.com/blog/202006/pickles_nine_flaws.html
 
 ## Notes
 
