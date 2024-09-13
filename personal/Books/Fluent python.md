@@ -6,6 +6,7 @@
 - [ ] https://www.fluentpython.com/extra/ordered-sequences-with-bisect/
 - [ ] https://www.fluentpython.com/extra/parsing-binary-struct/
 - [ ] https://nedbatchelder.com/blog/202006/pickles_nine_flaws.html
+- [ ] https://www.fluentpython.com/extra/internals-of-sets-and-dicts/
 
 ## Notes
 
