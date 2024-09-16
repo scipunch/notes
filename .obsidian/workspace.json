@@ -13,61 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "personal/Self growth/Research the market.md",
+                "file": "personal/books/Fluent python.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "d7b9c6929e33ca0c",
+            "id": "a6dd00188755797c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "personal/Self growth/Research the market.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "94818ed31476ea1f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "personal/Self growth/Get 1k followers on x.com.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "82026eb95c23a154",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "personal/Self growth/Get big arms.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fd3c8fe8cb61cb7b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "personal/Self growth/Become Korean citizen.md",
+                "file": "Reading links.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -117,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "b7a282d019526aa3",
@@ -133,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "personal/Self growth/Research the market.md",
+                "file": "Reading links.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "personal/Self growth/Research the market.md",
+                "file": "Reading links.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "personal/Self growth/Research the market.md"
+                "file": "Reading links.md"
               }
             }
           }
@@ -197,25 +163,26 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "929fc76e309cca58",
+  "active": "a6dd00188755797c",
   "lastOpenFiles": [
-    "personal/Self growth/Goals.md",
-    "personal/Self growth/Get big arms.md",
-    "personal/Self growth/Get 1k followers on x.com.md",
-    "personal/Self growth/Become Korean citizen.md",
-    "personal/Books/Fluent python.md",
+    "personal/books/Fluent python.md",
+    "Reading links.md",
+    "personal/self growth/Goals.md",
+    "2024-09-16.md",
+    "personal/self growth/Get 1k followers on x.com.md",
+    "personal/self growth/Research the market.md",
+    "personal/self growth/Get big arms.md",
+    "personal/self growth/Become Korean citizen.md",
     "personal/reading_list.md",
-    "personal/Self growth/Research the market.md",
     "Pasted image 20240912175657.png",
     "Pasted image 20240912170903.png",
-    "personal/Books",
-    "Untitled.md",
+    "personal/books",
     "Untitled 1.md",
     "Become Korean citizen.md",
     "1. Become Korean citizen.md",
     "personal/Self growth/Become Korean Citizen.md",
     "projects/cyberpass/Technical requirements V2.md",
-    "personal/Self growth",
+    "personal/self growth",
     "projects/cyberpass/Technical requirements V2-2024-09-02-08-56-05.png",
     "personal/movies/reviews/Murder on the Orient Express.md",
     "projects/cyberpass",
