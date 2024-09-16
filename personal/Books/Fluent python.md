@@ -2,6 +2,7 @@
 - [ ] https://github.com/gvanrossum/patma
 - [ ] https://norvig.com/lispy.html
 - [ ] https://pythontutor.com/
+- [ ] https://github.com/fluentpython/example-code-2e/blob/master/02-array-seq/listcomp_speed.py
 - [ ] https://docs.python.org/3/library/dis.html
 - [ ] https://www.fluentpython.com/extra/ordered-sequences-with-bisect/
 - [ ] https://www.fluentpython.com/extra/parsing-binary-struct/
