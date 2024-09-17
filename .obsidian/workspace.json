@@ -164,16 +164,16 @@
       "command-palette:Open command palette": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "omnisearch:Omnisearch": false,
-      "periodic-notes:Open today": false,
-      "obsidian-kanban:Create new board": false
+      "obsidian-kanban:Create new board": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "7ab6ced7fb8b84de",
+  "active": "3ca28fdb8fd233b0",
   "lastOpenFiles": [
+    "projects/universal_playlist/Kanban.md",
     "personal/books/Fluent python.md",
     "projects/universal_playlist/Sketch.md",
     "Reading links.md",
-    "projects/universal_playlist/Kanban.md",
     "Excalidraw",
     "personal/self growth/Become Korean citizen.md",
     "projects/universal_playlist",
