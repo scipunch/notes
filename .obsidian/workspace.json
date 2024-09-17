@@ -106,7 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 219.5
   },
   "right": {
     "id": "b7a282d019526aa3",
@@ -187,17 +187,18 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "a7f0fba36d5c948e",
+  "active": "7ab6ced7fb8b84de",
   "lastOpenFiles": [
-    "Pasted Image 20240917212231_827.png",
-    "Pasted Image 20240917212001_819.png",
-    "projects/universal_playlist/Kanban.md",
+    "personal/Reading links.md",
+    "images/Pasted Image 20240917212601_839.png",
+    "images/Pasted Image 20240917212231_827.png",
+    "images/Pasted Image 20240917212001_819.png",
     "personal/Mind map.md",
+    "projects/universal_playlist/Kanban.md",
     "Excalidraw",
     "personal/self growth/Untitled.md",
     "projects/universal_playlist/Sketch.md",
     "Life Kanban.md",
-    "personal/Reading links.md",
     "personal/books/Fluent python.md",
     "images/Pasted image 20240912175657.png",
     "images/Pasted image 20240912170903.png",
