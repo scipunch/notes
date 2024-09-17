@@ -11,15 +11,33 @@
             "id": "929fc76e309cca58",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "personal/self growth/Become Korean citizen.md",
-                "mode": "source",
-                "source": false
+                "file": "projects/universal_playlist/Kanban.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false,
+                    false
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "id": "3ca28fdb8fd233b0",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "projects/universal_playlist/Sketch.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "personal/self growth/Become Korean citizen.md",
+                "file": "projects/universal_playlist/Sketch.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "personal/self growth/Become Korean citizen.md",
+                "file": "projects/universal_playlist/Sketch.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "personal/self growth/Become Korean citizen.md"
+                "file": "projects/universal_playlist/Sketch.md"
               }
             }
           }
@@ -150,20 +168,24 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "929fc76e309cca58",
+  "active": "7ab6ced7fb8b84de",
   "lastOpenFiles": [
+    "Reading links.md",
+    "projects/universal_playlist/Kanban.md",
+    "projects/universal_playlist/Sketch.md",
+    "Excalidraw",
+    "personal/self growth/Become Korean citizen.md",
+    "projects/universal_playlist",
     "Life Kanban.md",
     "Korea.md",
     "Pasted image 20240912170903.png",
     "personal/books/Fluent python.md",
     "Untitled Kanban.md",
-    "Reading links.md",
     "personal/self growth/Goals.md",
     "2024-09-16.md",
     "personal/self growth/Get 1k followers on x.com.md",
     "personal/self growth/Research the market.md",
     "personal/self growth/Get big arms.md",
-    "personal/self growth/Become Korean citizen.md",
     "personal/reading_list.md",
     "Pasted image 20240912175657.png",
     "personal/books",
@@ -189,10 +211,7 @@
     "templates/weekly/Weekly Planning.md~",
     "templates/weekly/Weekly Planning.md",
     "templates/weekly",
-    "planning/W30-2024.md",
     "planning",
-    "work/haas/index.md",
-    "4913",
-    "templates"
+    "4913"
   ]
 }
