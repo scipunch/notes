@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "personal/books/Fluent python.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a6dd00188755797c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Reading links.md",
+                "file": "personal/self growth/Become Korean citizen.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "b7a282d019526aa3",
@@ -99,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reading links.md",
+                "file": "personal/self growth/Become Korean citizen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reading links.md",
+                "file": "personal/self growth/Become Korean citizen.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reading links.md"
+                "file": "personal/self growth/Become Korean citizen.md"
               }
             }
           }
@@ -160,12 +146,17 @@
       "command-palette:Open command palette": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "omnisearch:Omnisearch": false,
-      "periodic-notes:Open today": false
+      "periodic-notes:Open today": false,
+      "obsidian-kanban:Create new board": false
     }
   },
-  "active": "a6dd00188755797c",
+  "active": "929fc76e309cca58",
   "lastOpenFiles": [
+    "Life Kanban.md",
+    "Korea.md",
+    "Pasted image 20240912170903.png",
     "personal/books/Fluent python.md",
+    "Untitled Kanban.md",
     "Reading links.md",
     "personal/self growth/Goals.md",
     "2024-09-16.md",
@@ -175,7 +166,6 @@
     "personal/self growth/Become Korean citizen.md",
     "personal/reading_list.md",
     "Pasted image 20240912175657.png",
-    "Pasted image 20240912170903.png",
     "personal/books",
     "Untitled 1.md",
     "Become Korean citizen.md",
@@ -202,9 +192,6 @@
     "planning/W30-2024.md",
     "planning",
     "work/haas/index.md",
-    "wiki/index.md",
-    "templates/Post.md",
-    "projects/capture_serbia/index.md",
     "4913",
     "templates"
   ]
