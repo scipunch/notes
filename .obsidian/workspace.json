@@ -30,14 +30,33 @@
             "id": "3ca28fdb8fd233b0",
             "type": "leaf",
             "state": {
+              "type": "kanban",
+              "state": {
+                "file": "projects/universal_playlist/Kanban.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false,
+                    false
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "id": "a7f0fba36d5c948e",
+            "type": "leaf",
+            "state": {
               "type": "excalidraw",
               "state": {
-                "file": "projects/universal_playlist/Sketch.md"
+                "file": "personal/Mind map.md"
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -103,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "projects/universal_playlist/Sketch.md",
+                "file": "personal/Mind map.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "projects/universal_playlist/Sketch.md",
+                "file": "personal/Mind map.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "projects/universal_playlist/Sketch.md"
+                "file": "personal/Mind map.md"
               }
             }
           }
@@ -168,18 +187,23 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "3ca28fdb8fd233b0",
+  "active": "a7f0fba36d5c948e",
   "lastOpenFiles": [
+    "Pasted Image 20240917212001_819.png",
     "projects/universal_playlist/Kanban.md",
-    "personal/books/Fluent python.md",
-    "projects/universal_playlist/Sketch.md",
-    "Reading links.md",
+    "personal/Mind map.md",
     "Excalidraw",
+    "personal/self growth/Untitled.md",
+    "projects/universal_playlist/Sketch.md",
+    "Life Kanban.md",
+    "personal/Reading links.md",
+    "personal/books/Fluent python.md",
+    "images/Pasted image 20240912175657.png",
+    "images/Pasted image 20240912170903.png",
+    "images",
     "personal/self growth/Become Korean citizen.md",
     "projects/universal_playlist",
-    "Life Kanban.md",
     "Korea.md",
-    "Pasted image 20240912170903.png",
     "Untitled Kanban.md",
     "personal/self growth/Goals.md",
     "2024-09-16.md",
@@ -187,7 +211,6 @@
     "personal/self growth/Research the market.md",
     "personal/self growth/Get big arms.md",
     "personal/reading_list.md",
-    "Pasted image 20240912175657.png",
     "personal/books",
     "Untitled 1.md",
     "Become Korean citizen.md",
@@ -206,12 +229,8 @@
     "personal/movies/images",
     "personal/movies/Frame 1 (1).png",
     "personal/movies/reviews/1724035931-SIKZ.md",
-    "projects/haas/index.md",
-    "templates/weekly/1721727997-OQSC.md",
     "templates/weekly/Weekly Planning.md~",
-    "templates/weekly/Weekly Planning.md",
     "templates/weekly",
-    "planning",
-    "4913"
+    "planning"
   ]
 }
