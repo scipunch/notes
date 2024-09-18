@@ -12,4 +12,113 @@ Python was used cause of the handy [linkedin_jobs_scraper](https://github.com/sp
 Nu shell was used with experiment purpose in comparison with default bash stack.
 ChatGPT
 # Data extraction
-To start some data is required. LinkedIn was the first website that came to my mind so 
+To start some data is required. LinkedIn was the first website that came to my mind and there was ready to use Python package. I've copied example code, modified it a little and got ready to use script to get a `JSON` file with a list of job descriptions. Here it's source:
+```python
+import json
+import logging
+import os
+from threading import Lock
+
+from dotenv import load_dotenv
+
+# linkedin_jobs_scraper loads env statically
+# So dotenv should be loaded before imports
+load_dotenv()
+
+from linkedin_jobs_scraper import LinkedinScraper
+from linkedin_jobs_scraper.events import EventData, Events
+from linkedin_jobs_scraper.filters import ExperienceLevelFilters, TypeFilters
+from linkedin_jobs_scraper.query import Query, QueryFilters, QueryOptions
+
+CHROMEDRIVER_PATH = os.environ["CHROMEDRIVER_PATH"]
+
+RESULT_FILE_PATH = "result.json"
+KEYWORDS = ("Python", "PHP", "Java", "Rust")
+LOCATIONS = ("South Korea",)
+TYPE_FILTERS = (TypeFilters.FULL_TIME,)
+EXPERIENCE = (ExperienceLevelFilters.MID_SENIOR,)
+LIMIT = 500
+
+logging.basicConfig(level=logging.INFO)
+log = logging.getLogger(__name__)
+
+
+def main():
+    result_lock = Lock()
+    result = []
+
+    def on_data(data: EventData):
+        with result_lock:
+            result.append(data._asdict())
+
+        log.info(
+            "[JOB]",
+            data.title,
+            data.company,
+            len(data.description),
+        )
+
+    def on_error(error):
+        log.error("[ERROR]", error)
+
+    def on_end():
+        log.info("Scraping finished")
+
+        if not result:
+            return
+
+        with open(RESULT_FILE_PATH, "w") as f:
+            json.dump(result, f)
+
+    queries = [
+        Query(
+            query=keyword,
+            options=QueryOptions(
+                limit=LIMIT,
+                locations=[*LOCATIONS],
+                filters=QueryFilters(
+                    type=[*TYPE_FILTERS],
+                    experience=[*EXPERIENCE],
+                ),
+            ),
+        )
+        for keyword in KEYWORDS
+    ]
+
+    scraper = LinkedinScraper(
+        chrome_executable_path=CHROMEDRIVER_PATH,
+        headless=True,
+        max_workers=len(queries),
+        slow_mo=0.5,
+        page_load_timeout=40,
+    )
+
+    scraper.on(Events.DATA, on_data)
+    scraper.on(Events.ERROR, on_error)
+    scraper.on(Events.END, on_end)
+
+    scraper.run(queries)
+
+
+if __name__ == "__main__":
+    main()
+```
+
+To download chrome driver I've made the following bash script:
+```bash
+#!/usr/bin/env bash
+stable_version=$(curl 'https://googlechromelabs.github.io/chrome-for-testing/LATEST_RELEASE_STABLE')
+driver_url=$(curl 'https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json' \
+	| jq -r ".versions[] | select(.version == \"${stable_version}\") | .downloads.chromedriver[0] | select(.platform == \"linux64\") | .url")
+wget "$driver_url"
+driver_zip_name=$(echo "$driver_url" | awk -F'/' '{print $NF}')
+unzip "$driver_zip_name"
+rm "$driver_zip_name"
+```
+
+And my `.env` file looks like that:
+```sh
+CHROMEDRIVER_PATH="chromedriver-linux64/chromedriver"
+LI_AT_COOKIE=
+```
+# Data analysis
