@@ -14,6 +14,7 @@ Nu shell was used with experiment purpose in comparison with default bash stack.
 ChatGPT
 # Data extraction
 To start some data is required. LinkedIn was the first website that came to my mind and there was ready to use Python package. I've copied example code, modified it a little and got ready to use script to get a `JSON` file with a list of job descriptions. Here it's source:
+
 ```python
 import json
 import logging
@@ -106,6 +107,7 @@ if __name__ == "__main__":
 ```
 
 To download chrome driver I've made the following bash script:
+
 ```bash
 #!/usr/bin/env bash
 stable_version=$(curl 'https://googlechromelabs.github.io/chrome-for-testing/LATEST_RELEASE_STABLE')
@@ -118,12 +120,14 @@ rm "$driver_zip_name"
 ```
 
 And my `.env` file looks like that:
+
 ```sh
 CHROMEDRIVER_PATH="chromedriver-linux64/chromedriver"
 LI_AT_COOKIE=
 ```
 
 `linkedin_jobs_scraper` serializes jobs to the following DTO:
+
 ```python
 class EventData(NamedTuple):
     query: str = ''
@@ -151,6 +155,7 @@ Example sample (descriptions replaced with `...`):
 | Python | South Korea | 3959499221 | 0         | https://www.linkedin.com/jobs/view/3959499221/?trk=flagship3_search_srp_jobs |            | Senior Python Software Engineer | Canonical |              | https://media.licdn.com/dms/image/v2/C560BAQEbIYAkAURcYw/company-logo_100_100/company-logo_100_100/0/1650566107463/canonical_logo?e=1734566400&v=beta&t=emb8cxAFwBnOGwJ8nTftd8ODTFDkC_5SQNz-Jcd8zRU | Seoul, Seoul, South Korea (Remote) | ...         | ...              |      | [Remote Full-time Mid-Senior level, Skills: Python (Programming Language), Computer Science, +8 more, See how you compare to 18 applicants. Try Premium for RSD0, , Am I a good fit for this job?, How can I best position myself for this job?, Tell me more about Canonical] | [Back-End Web Development, Computer Science, Engineering Documentation, Kubernetes, Linux, MLOps, OpenStack, Python (Programming Language), Technical Documentation, Web Services] |
 
 Was generated with the following nu shell command:
+
 ```sh
 cat result.json 
 | from  json 
@@ -167,7 +172,8 @@ We already have several ready to use features (`title` and `skills`), but I want
 - Responsibilities
 - Position
 
-So let's add them with help of ChatGPT! 
+So let's add them with help of ChatGPT!
+
 ```python
 import json
 import logging
@@ -243,4 +249,5 @@ for job in tqdm(jobs):
 with open("job_descriptions_analysis.json", "w") as f:
     json.dump(parsed_descriptions, f)
 ```
+
 Do not forget to add `OPENAI_API_KEY` to the `.env` file
