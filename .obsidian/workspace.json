@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/movie_spot/Index.md",
+                "file": "projects/arcticles/Job market in Korea/Exploring the Korean Job Market for Software Engineers.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "projects/movie_spot/Index.md",
+                "file": "projects/arcticles/Job market in Korea/Exploring the Korean Job Market for Software Engineers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "projects/movie_spot/Index.md",
+                "file": "projects/arcticles/Job market in Korea/Exploring the Korean Job Market for Software Engineers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "projects/movie_spot/Index.md"
+                "file": "projects/arcticles/Job market in Korea/Exploring the Korean Job Market for Software Engineers.md"
               }
             }
           }
@@ -152,8 +152,11 @@
   },
   "active": "da9e1cf6f2dd401c",
   "lastOpenFiles": [
-    "projects/movie_spot/Check target ads.md",
     "projects/movie_spot/Index.md",
+    "projects/arcticles/Job market in Korea/Exploring the Korean Job Market for Software Engineers.md",
+    "projects/arcticles/Job market in Korea",
+    "projects/arcticles",
+    "projects/movie_spot/Check target ads.md",
     "projects/movie_spot/[.md",
     "projects/movie_spot/inner/Ad V1.md",
     "projects/movie_spot/Untitled.md",
@@ -194,10 +197,7 @@
     "personal/books",
     "Untitled 1.md",
     "Become Korean citizen.md",
-    "1. Become Korean citizen.md",
     "personal/self_growth",
-    "projects/cyberpass",
-    "Untitled.canvas",
-    "personal/movies/images"
+    "Untitled.canvas"
   ]
 }
