@@ -488,3 +488,6 @@ $df
 | false           | 26    |
 | true            | 57    |
 Extraction of the most common requirements wasn't as easy as prev steps. So I've met a classification problem which I'm going to describe in the next chapter of this article.
+
+# Conclusion
+We successfully extracted and analyzed job data from LinkedIn using the `linkedin_jobs_scraper` package. Python was 
