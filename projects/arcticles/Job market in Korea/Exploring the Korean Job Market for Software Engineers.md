@@ -300,14 +300,13 @@ cat full.json | from json | columns
 # Analysis
 
 ```sh
-$env.DATA_PATH = 'full.json'
+let df = cat full.json | from json
 ```
 
 
 ```sh
-cat $env.DATA_PATH 
-| from json 
-| get --ignore-errors 'stack' 
+$df
+| get 'stack' 
 | flatten 
 | uniq --count 
 | sort-by count --reverse 
