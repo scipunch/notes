@@ -8,55 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "929fc76e309cca58",
+            "id": "da9e1cf6f2dd401c",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "projects/universal_playlist/Kanban.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false,
-                    false
-                  ]
-                }
-              }
-            }
-          },
-          {
-            "id": "3ca28fdb8fd233b0",
-            "type": "leaf",
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "projects/universal_playlist/Kanban.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false,
-                    false
-                  ]
-                }
-              }
-            }
-          },
-          {
-            "id": "a7f0fba36d5c948e",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "personal/Mind map.md"
+                "file": "projects/movie_spot/Index.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "personal/Mind map.md",
+                "file": "projects/movie_spot/Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "personal/Mind map.md",
+                "file": "projects/movie_spot/Index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "personal/Mind map.md"
+                "file": "projects/movie_spot/Index.md"
               }
             }
           }
@@ -187,54 +150,54 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "a7f0fba36d5c948e",
+  "active": "da9e1cf6f2dd401c",
   "lastOpenFiles": [
-    "Pasted Image 20240917213736_986.png",
-    "Pasted Image 20240917213721_982.png",
+    "projects/movie_spot/inner/Ad V1.md",
+    "projects/movie_spot/Index.md",
+    "projects/movie_spot/Untitled.md",
+    "personal/movies/Watch list.md",
+    "projects/movie_spot/inner",
+    "attachments/Pasted image 20240918112803.png",
+    "attachments/Pasted image 20240918112758.png",
+    "personal/self_growth/Kanban.md",
+    "projects/movie_spot",
     "personal/Reading links.md",
-    "images/Pasted Image 20240917213129_712.png",
     "personal/Mind map.md",
-    "images/Pasted Image 20240917213345_719.png",
-    "images/Pasted Image 20240917213229_745.png",
-    "images/Pasted Image 20240917213229_715.png",
-    "images/Pasted Image 20240917213214_714.png",
-    "images/Pasted Image 20240917213159_713.png",
-    "images/Pasted Image 20240917213144_712.png",
-    "images/Pasted Image 20240917212601_839.png",
-    "images/Pasted Image 20240917212231_827.png",
+    "personal/self_growth/Index.md",
+    "personal/self_growth/inner/Get big arms.md",
+    "personal/self_growth/inner/Become Korean citizen.md",
+    "personal/self_growth/inner/Research the market.md",
+    "personal/self_growth/inner",
+    "projects/cyberpass/Technical requirements V2.md",
+    "projects/cyberpass/Technical requirements V2-2024-09-02-08-56-05.png",
+    "personal/self_growth/inner/Get 1k followers on x.com.md",
+    "projects/universal_playlist/Sketch.md",
     "projects/universal_playlist/Kanban.md",
+    "attachments/Pasted Image 20240917213721_982.png",
+    "attachments/Pasted Image 20240917213736_986.png",
+    "attachments/Pasted Image 20240917213129_712.png",
+    "attachments/Pasted Image 20240917213345_719.png",
+    "attachments/Pasted Image 20240917213229_745.png",
+    "attachments/Pasted Image 20240917213229_715.png",
+    "attachments/Pasted Image 20240917213214_714.png",
     "Excalidraw",
     "personal/self growth/Untitled.md",
-    "projects/universal_playlist/Sketch.md",
-    "Life Kanban.md",
     "personal/books/Fluent python.md",
-    "images",
-    "personal/self growth/Become Korean citizen.md",
+    "attachments",
     "projects/universal_playlist",
     "Korea.md",
     "Untitled Kanban.md",
-    "personal/self growth/Goals.md",
     "2024-09-16.md",
-    "personal/self growth/Get 1k followers on x.com.md",
-    "personal/self growth/Research the market.md",
-    "personal/self growth/Get big arms.md",
     "personal/reading_list.md",
     "personal/books",
     "Untitled 1.md",
     "Become Korean citizen.md",
     "1. Become Korean citizen.md",
     "personal/Self growth/Become Korean Citizen.md",
-    "projects/cyberpass/Technical requirements V2.md",
-    "personal/self growth",
+    "personal/self_growth",
     "personal/movies/reviews/Murder on the Orient Express.md",
     "projects/cyberpass",
-    "personal/movies/reviews/Chungking Express.md",
-    "personal/movies/Watch list.md",
     "Untitled.canvas",
-    "personal/movies/images",
-    "personal/movies/reviews/1724035931-SIKZ.md",
-    "templates/weekly/Weekly Planning.md~",
-    "templates/weekly",
-    "planning"
+    "personal/movies/images"
   ]
 }
