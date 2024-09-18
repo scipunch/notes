@@ -122,9 +122,45 @@ CHROMEDRIVER_PATH="chromedriver-linux64/chromedriver"
 LI_AT_COOKIE=
 ```
 
-Example data entry (descriptions replaced with `...`):
+`linkedin_jobs_scraper` serializes jobs to the following DTO:
+```python
+class EventData(NamedTuple):
+    query: str = ''
+    location: str = ''
+    job_id: str = ''
+    job_index: int = -1  # Only for debug
+    link: str = ''
+    apply_link: str = ''
+    title: str = ''
+    company: str = ''
+    company_link: str = ''
+    company_img_link: str = ''
+    place: str = ''
+    description: str = ''
+    description_html: str = ''
+    date: str = ''
+    insights: List[str] = []
+    skills: List[str] = []
+```
+
+Example sample (descriptions replaced with `...`):
 
 | query  | location    | job_id     | job_index | link                                                                         | apply_link | title                           | company   | company_link | company_img_link                                                                                                                                                                                    | place                              | description | description_html | date | insights                                                                                                                                                                                                                                                                       | skills                                                                                                                                                                             |
 | ------ | ----------- | ---------- | --------- | ---------------------------------------------------------------------------- | ---------- | ------------------------------- | --------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------- | ----------- | ---------------- | ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Python | South Korea | 3959499221 | 0         | https://www.linkedin.com/jobs/view/3959499221/?trk=flagship3_search_srp_jobs |            | Senior Python Software Engineer | Canonical |              | https://media.licdn.com/dms/image/v2/C560BAQEbIYAkAURcYw/company-logo_100_100/company-logo_100_100/0/1650566107463/canonical_logo?e=1734566400&v=beta&t=emb8cxAFwBnOGwJ8nTftd8ODTFDkC_5SQNz-Jcd8zRU | Seoul, Seoul, South Korea (Remote) | ...         | ...              |      | [Remote Full-time Mid-Senior level, Skills: Python (Programming Language), Computer Science, +8 more, See how you compare to 18 applicants. Try Premium for RSD0, , Am I a good fit for this job?, How can I best position myself for this job?, Tell me more about Canonical] | [Back-End Web Development, Computer Science, Engineering Documentation, Kubernetes, Linux, MLOps, OpenStack, Python (Programming Language), Technical Documentation, Web Services] |
+Was generated with the following nu shell command:
+```sh
+cat result.json 
+| from  json 
+| first 
+| update description { |row| '...' } 
+| update description_html { |row| '...' } 
+| to md --pretty 
+```
 # Data analysis
+We already have several ready to use features (`title` and `skills`), but I want more:
+- Years of experience
+- Degree 
+- Responsibilities
+- Position
+So let's add them with help of ChatGPT! 
