@@ -444,11 +444,19 @@ $df
 ╰───┴─────────────────────┴───────────────────────┴────────────╯
 ```
 
-Also what degree is required for the senior python devs?
+Also, what degree is required for the senior python developers?
+
 ```sh
 $df 
 | filter-by-intersection 'stack' ['python'] 
 | where 'position' == 'senior' 
 | each { |row| $row.degree != null } 
-| uniq -c
+| uniq -c 
+| rename --column { value: 'degree_required' }
+| to md --pretty
 ```
+
+| degree_required | count |
+| --------------- | ----- |
+| false           | 26    |
+| true            | 57    |
