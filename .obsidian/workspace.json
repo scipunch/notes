@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "7eb83f9a10c7ee35",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "projects/movie_spot/Check target ads.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "projects/movie_spot/Check target ads.md",
+                "file": "projects/movie_spot/Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "projects/movie_spot/Check target ads.md",
+                "file": "projects/movie_spot/Index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "projects/movie_spot/Check target ads.md"
+                "file": "projects/movie_spot/Index.md"
               }
             }
           }
@@ -163,11 +150,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "7eb83f9a10c7ee35",
+  "active": "da9e1cf6f2dd401c",
   "lastOpenFiles": [
-    "projects/movie_spot/[.md",
     "projects/movie_spot/Check target ads.md",
     "projects/movie_spot/Index.md",
+    "projects/movie_spot/[.md",
     "projects/movie_spot/inner/Ad V1.md",
     "projects/movie_spot/Untitled.md",
     "personal/movies/Watch list.md",
