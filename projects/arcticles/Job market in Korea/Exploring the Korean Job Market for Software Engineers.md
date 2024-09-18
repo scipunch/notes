@@ -446,5 +446,9 @@ $df
 
 Also what degree is required for the senior python devs?
 ```sh
-
+$df 
+| filter-by-intersection 'stack' ['python'] 
+| where 'position' == 'senior' 
+| each { |row| $row.degree != null } 
+| uniq -c
 ```
