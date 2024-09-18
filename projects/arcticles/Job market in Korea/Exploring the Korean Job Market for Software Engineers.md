@@ -363,9 +363,9 @@ $df
 | Linux      | 17    |
 | Docker     | 15    |
 | Next.js    | 15    |
-Looks like the most of the jobs require `Python` (as queried from LinkedIn), but there r also some front-end, `Java` and `C++`b jobs
+The most of the jobs require `Python`, but there r also some front-end, `Java` and `C++` jobs
 
-Magic `filter-by-intersection` function is custom:
+Magic `filter-by-intersection` function is a custom one:
 
 ```sh
 # Filters rows by intersecting given `column` with `requirements`
