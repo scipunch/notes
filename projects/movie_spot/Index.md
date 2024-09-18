@@ -5,3 +5,4 @@
 - [ ] Find most popular hashtags in Bali
 - [ ] ❓ Filter posts with Russian audience
 - [ ] Gradate posts by their popularity 
+- [ ] [[Check target ads]]
