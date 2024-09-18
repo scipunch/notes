@@ -8,6 +8,7 @@ In this article, I’ll walk you through the steps I took to carry out my resear
 - Python
 - Nu shell
 - ChatGPT
+
 Python was used cause of the handy [linkedin_jobs_scraper](https://github.com/spinlud/py-linkedin-jobs-scraper) and [openai](https://github.com/openai/openai-python) packages.
 Nu shell was used with experiment purpose in comparison with default bash stack.
 ChatGPT
@@ -148,6 +149,7 @@ Example sample (descriptions replaced with `...`):
 | query  | location    | job_id     | job_index | link                                                                         | apply_link | title                           | company   | company_link | company_img_link                                                                                                                                                                                    | place                              | description | description_html | date | insights                                                                                                                                                                                                                                                                       | skills                                                                                                                                                                             |
 | ------ | ----------- | ---------- | --------- | ---------------------------------------------------------------------------- | ---------- | ------------------------------- | --------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------- | ----------- | ---------------- | ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Python | South Korea | 3959499221 | 0         | https://www.linkedin.com/jobs/view/3959499221/?trk=flagship3_search_srp_jobs |            | Senior Python Software Engineer | Canonical |              | https://media.licdn.com/dms/image/v2/C560BAQEbIYAkAURcYw/company-logo_100_100/company-logo_100_100/0/1650566107463/canonical_logo?e=1734566400&v=beta&t=emb8cxAFwBnOGwJ8nTftd8ODTFDkC_5SQNz-Jcd8zRU | Seoul, Seoul, South Korea (Remote) | ...         | ...              |      | [Remote Full-time Mid-Senior level, Skills: Python (Programming Language), Computer Science, +8 more, See how you compare to 18 applicants. Try Premium for RSD0, , Am I a good fit for this job?, How can I best position myself for this job?, Tell me more about Canonical] | [Back-End Web Development, Computer Science, Engineering Documentation, Kubernetes, Linux, MLOps, OpenStack, Python (Programming Language), Technical Documentation, Web Services] |
+
 Was generated with the following nu shell command:
 ```sh
 cat result.json 
@@ -157,6 +159,7 @@ cat result.json
 | update description_html { |row| '...' } 
 | to md --pretty 
 ```
+
 # Data analysis
 We already have several ready to use features (`title` and `skills`), but I want more:
 - Years of experience
