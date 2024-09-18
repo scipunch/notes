@@ -240,4 +240,4 @@ for job in tqdm(jobs):
 with open("job_descriptions_analysis.json", "w") as f:
     json.dump(parsed_descriptions, f)
 ```
-Do not forget to add `OPENAI_API_KEY` to the `.env` file.
+Do not forget to add `OPENAI_API_KEY` to the `.env` file
