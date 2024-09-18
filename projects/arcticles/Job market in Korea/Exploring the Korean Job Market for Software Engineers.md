@@ -366,6 +366,7 @@ $df
 Looks like the most of the jobs require `Python` (as queried from LinkedIn), but there r also some front-end, `Java` and `C++`b jobs
 
 Magic `filter-by-intersection` function is custom:
+
 ```sh
 # Filters rows by intersecting given `column` with `requirements`
 # Case insensitive and works only if ALL requirements exist in a `column` value
@@ -391,3 +392,54 @@ def filter-by-intersection [
 ```
 
 What about experience requirement for each position in  `Python`?
+
+```sh
+$df
+| where 'position' !~ 'other'
+| filter-by-intersection 'stack' ['python'] 
+| group-by 'position' --to-table
+| insert 'experience' { |group| 
+    $group.items 
+    | get 'experience' 
+    | uniq --count  
+    | sort-by 'count' --reverse 
+    | first 3 
+} 
+| insert 'group_size' { |group| $group.items | length } 
+| sort-by 'group_size' --reverse 
+| select 'group' 'experience' 'group_size' 
+```
+
+```sh
+╭───┬─────────────────────┬───────────────────────┬────────────╮
+│ # │        group        │      experience       │ group_size │
+├───┼─────────────────────┼───────────────────────┼────────────┤
+│ 0 │ senior              │ ╭───┬───────┬───────╮ │         83 │
+│   │                     │ │ # │ value │ count │ │            │
+│   │                     │ ├───┼───────┼───────┤ │            │
+│   │                     │ │ 0 │     5 │    30 │ │            │
+│   │                     │ │ 1 │       │    11 │ │            │
+│   │                     │ │ 2 │     7 │    11 │ │            │
+│   │                     │ ╰───┴───────┴───────╯ │            │
+│ 1 │ lead                │ ╭───┬───────┬───────╮ │         12 │
+│   │                     │ │ # │ value │ count │ │            │
+│   │                     │ ├───┼───────┼───────┤ │            │
+│   │                     │ │ 0 │       │     5 │ │            │
+│   │                     │ │ 1 │    10 │     4 │ │            │
+│   │                     │ │ 2 │     5 │     1 │ │            │
+│   │                     │ ╰───┴───────┴───────╯ │            │
+│ 2 │ middle              │ ╭───┬───────┬───────╮ │         10 │
+│   │                     │ │ # │ value │ count │ │            │
+│   │                     │ ├───┼───────┼───────┤ │            │
+│   │                     │ │ 0 │     3 │     4 │ │            │
+│   │                     │ │ 1 │     5 │     3 │ │            │
+│   │                     │ │ 2 │     2 │     2 │ │            │
+│   │                     │ ╰───┴───────┴───────╯ │            │
+│ 3 │ manager             │ ╭───┬───────┬───────╮ │          6 │
+│   │                     │ │ # │ value │ count │ │            │
+│   │                     │ ├───┼───────┼───────┤ │            │
+│   │                     │ │ 0 │       │     5 │ │            │
+│   │                     │ │ 1 │     8 │     1 │ │            │
+│   │                     │ ╰───┴───────┴───────╯ │            │
+╰───┴─────────────────────┴───────────────────────┴────────────╯
+```
