@@ -1,5 +1,5 @@
 # Introduction
-South Korea has been catching a lot of attention lately as a tech hotspot, making it an intriguing destination for software engineers. As someone who's looking to immigrate there, I decided to do some homemade research to get a clearer picture of the job market. This isn't a big, formal study—just a personal project to help me understand what to expect.
+South Korea has been catching a lot of attention lately as a tech hotspot, making it an intriguing destination for software engineers. As someone who's looking to immigrate there, I decided to do some homemade research to get a clearer picture of the job market. This isn't a big, formal study — just a personal project to help me understand what to expect.
 
 To gather data, I turned to LinkedIn, scraping job listings using Python. For the initial data crunching, I used Nu Shell, which helped me sift through the raw information efficiently. Then, to dig deeper into the job descriptions and extract meaningful insights, I used ChatGPT for classification and feature extraction.
 
@@ -251,3 +251,41 @@ with open("job_descriptions_analysis.json", "w") as f:
 ```
 
 Do not forget to add `OPENAI_API_KEY` to the `.env` file
+
+Now we can merge by `job_id` results with data from LinkedIn:
+
+```sh
+cat job_descriptions_analysis.json 
+| from json 
+| merge (cat result.json | from json)
+| to json
+| save full.json
+```
+
+```sh
+cat full.json | from json | columns
+╭────┬──────────────────╮
+│  0 │ experience       │
+│  1 │ degree           │
+│  2 │ stack            │
+│  3 │ salary           │
+│  4 │ position         │
+│  5 │ responsibilities │
+│  6 │ job_id           │
+│  7 │ query            │
+│  8 │ location         │
+│  9 │ job_index        │
+│ 10 │ link             │
+│ 11 │ apply_link       │
+│ 12 │ title            │
+│ 13 │ company          │
+│ 14 │ company_link     │
+│ 15 │ company_img_link │
+│ 16 │ place            │
+│ 17 │ description      │
+│ 18 │ description_html │
+│ 19 │ date             │
+│ 20 │ insights         │
+│ 21 │ skills           │
+╰────┴──────────────────╯
+```
