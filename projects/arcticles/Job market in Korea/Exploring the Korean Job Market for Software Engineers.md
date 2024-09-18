@@ -163,4 +163,81 @@ We already have several ready to use features (`title` and `skills`), but I want
 - Degree 
 - Responsibilities
 - Position
+
 So let's add them with help of ChatGPT! 
+```python
+import json
+import logging
+import os
+
+from dotenv import load_dotenv
+from linkedin_jobs_scraper.events import EventData
+from openai import OpenAI
+from tqdm import tqdm
+
+load_dotenv()
+
+client = OpenAI(
+    api_key=os.environ["OPENAI_API_KEY"],
+)
+
+with open("result.json", "rb") as f:
+    jobs = json.load(f)
+
+parsed_descriptions = []
+
+for job in tqdm(jobs):
+    job = EventData(**job)
+    chat_completion = client.chat.completions.create(
+        model="gpt-4o-mini",
+        messages=[
+            {
+                "role": "user",
+                "content": """
+                    Process given IT job description. 
+                    Output only raw JSON with the following fields:
+                        - Experience (amount of years or null)
+                        - Degree requirement (str if found else null)
+                        - Tech stack (array of strings)
+                        - Salary (amount of dollars or null)
+                        - Position (middle, senior, lead, manager, other (describe it))
+                        - Core responsibilites (array of strings)
+
+                    Output will be passed directrly to the
+                    Python's `json.loads` function. So DO NOT APPLY MARKDOWN FORMATTING
+                    Example:
+                    ```
+                    {
+                        "experience": 5, 
+                        "degree": "bachelor", 
+                        "stack": ["Python", "FastAPI", "Docker"], 
+                        "position": "middle",
+                        "responsibilities": ["Deliver features", "break production"]
+                    }
+                    ```
+
+                    Here is a job description:
+                """
+                + "\n\n"
+                + job.description_html,
+            }
+        ],
+    )
+
+    content = chat_completion.choices[0].message.content
+    try:
+        if not content:
+            print("Empty result from ChatGPT")
+            continue
+        result = json.loads(content)
+    except json.decoder.JSONDecodeError as e:
+        logging.error(e, chat_completion)
+        continue
+
+    result["job_id"] = job.job_id
+    parsed_descriptions.append(result)
+
+with open("job_descriptions_analysis.json", "w") as f:
+    json.dump(parsed_descriptions, f)
+```
+Do not forget to add `OPENAI_API_KEY` to the `.env` file.
