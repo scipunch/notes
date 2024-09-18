@@ -299,10 +299,13 @@ cat full.json | from json | columns
 
 # Analysis
 
+For the start 
+
 ```sh
 let df = cat full.json | from json
 ```
 
+Now we can see technologies frequency:
 
 ```sh
 $df
@@ -336,3 +339,15 @@ $df
 | Hadoop     | 21    |
 | Spark      | 21    |
 | R          | 20    |
+And for the Python only:
+
+```sh
+$df
+| filter-by-intersection 'stack' ['python']
+| get 'stack' 
+| flatten 
+| uniq --count 
+| sort-by count --reverse 
+| first 20 
+| to md --pretty
+```
