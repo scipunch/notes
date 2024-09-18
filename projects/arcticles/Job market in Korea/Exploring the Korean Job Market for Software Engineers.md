@@ -471,7 +471,7 @@ $df
 ╰───┴─────────────────────┴───────────────────────┴────────────╯
 ```
 
-Also, what degree is required for the senior python developers?
+Also, what about degree requirement for the senior python developers?
 
 ```sh
 $df 
@@ -487,3 +487,4 @@ $df
 | --------------- | ----- |
 | false           | 26    |
 | true            | 57    |
+Extraction of the most common requirements wasn't as easy as prev steps. So I've met a classification problem which I'm going to describe in the next chapter of this article.
