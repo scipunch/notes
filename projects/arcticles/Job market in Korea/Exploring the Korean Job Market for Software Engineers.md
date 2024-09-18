@@ -275,25 +275,24 @@ cat full.json | from json | columns
 │  0 │ experience       │
 │  1 │ degree           │
 │  2 │ stack            │
-│  3 │ salary           │
-│  4 │ position         │
-│  5 │ responsibilities │
-│  6 │ job_id           │
-│  7 │ query            │
-│  8 │ location         │
-│  9 │ job_index        │
-│ 10 │ link             │
-│ 11 │ apply_link       │
-│ 12 │ title            │
-│ 13 │ company          │
-│ 14 │ company_link     │
-│ 15 │ company_img_link │
-│ 16 │ place            │
-│ 17 │ description      │
-│ 18 │ description_html │
-│ 19 │ date             │
-│ 20 │ insights         │
-│ 21 │ skills           │
+│  3 │ position         │
+│  4 │ responsibilities │
+│  5 │ job_id           │
+│  6 │ query            │
+│  7 │ location         │
+│  8 │ job_index        │
+│  9 │ link             │
+│ 10 │ apply_link       │
+│ 11 │ title            │
+│ 12 │ company          │
+│ 13 │ company_link     │
+│ 14 │ company_img_link │
+│ 15 │ place            │
+│ 16 │ description      │
+│ 17 │ description_html │
+│ 18 │ date             │
+│ 19 │ insights         │
+│ 20 │ skills           │
 ╰────┴──────────────────╯
 ```
 
@@ -339,6 +338,33 @@ $df
 | Hadoop     | 21    |
 | Spark      | 21    |
 | R          | 20    |
+With `Python`:
+
+```sh
+$df
+| filter-by-intersection 'stack' ['python']
+| get 'stack' 
+| flatten 
+| where $it != 'Python'
+| uniq --count 
+| sort-by count --reverse 
+| first 10
+| to md --pretty
+```
+
+| value      | count |
+| ---------- | ----- |
+| Java       | 44    |
+| AWS        | 43    |
+| SQL        | 40    |
+| Kubernetes | 36    |
+| Docker     | 27    |
+| C++        | 26    |
+| Linux      | 24    |
+| R          | 20    |
+| GCP        | 20    |
+| C          | 18    |
+
 Without `Python`:
 
 ```sh
@@ -349,6 +375,7 @@ $df
 | uniq --count 
 | sort-by count --reverse 
 | first 10
+| to md --pretty
 ```
 
 | value      | count |
