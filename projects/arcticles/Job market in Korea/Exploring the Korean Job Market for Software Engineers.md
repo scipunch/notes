@@ -343,11 +343,10 @@ And for the Python only:
 
 ```sh
 $df
-| filter-by-intersection 'stack' ['python']
+| filter-by-intersection 'stack' ['python'] 
 | get 'stack' 
 | flatten 
 | uniq --count 
 | sort-by count --reverse 
-| first 20 
-| to md --pretty
+| where count > ($df | filter-by-intersection 'stack' ['python'] | lenght) * 0.3
 ```
