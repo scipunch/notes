@@ -175,6 +175,7 @@ We already have several ready to use features (`title` and `skills`), but I want
 - Years of experience
 - Degree 
 - Tech stack
+- Position
 - Responsibilities
 
 So let's add them with help of ChatGPT!
