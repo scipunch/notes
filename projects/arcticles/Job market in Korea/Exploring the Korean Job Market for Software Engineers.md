@@ -148,7 +148,7 @@ class EventData(NamedTuple):
     skills: List[str] = []
 ```
 
-Example sample (descriptions replaced with `...`):
+Example sample (description was replaced with `...` for better readability):
 
 | query  | location    | job_id     | job_index | link                                                                         | apply_link | title                           | company   | company_link | company_img_link                                                                                                                                                                                    | place                              | description | description_html | date | insights                                                                                                                                                                                                                                                                       | skills                                                                                                                                                                             |
 | ------ | ----------- | ---------- | --------- | ---------------------------------------------------------------------------- | ---------- | ------------------------------- | --------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------- | ----------- | ---------------- | ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -157,11 +157,16 @@ Example sample (descriptions replaced with `...`):
 Was generated with the following nu shell command:
 
 ```sh
+# Replaces description of a job with elipsis
+def hide-description [] {
+    update description { |row| '...' } 
+    | update description_html { |row| '...' } 
+}
+
 cat result.json 
 | from  json 
 | first 
-| update description { |row| '...' } 
-| update description_html { |row| '...' } 
+| hide-description
 | to md --pretty 
 ```
 
@@ -169,8 +174,8 @@ cat result.json
 We already have several ready to use features (`title` and `skills`), but I want more:
 - Years of experience
 - Degree 
+- Tech stack
 - Responsibilities
-- Position
 
 So let's add them with help of ChatGPT!
 
@@ -208,7 +213,6 @@ for job in tqdm(jobs):
                         - Experience (amount of years or null)
                         - Degree requirement (str if found else null)
                         - Tech stack (array of strings)
-                        - Salary (amount of dollars or null)
                         - Position (middle, senior, lead, manager, other (describe it))
                         - Core responsibilites (array of strings)
 
