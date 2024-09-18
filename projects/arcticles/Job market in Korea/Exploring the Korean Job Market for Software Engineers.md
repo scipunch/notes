@@ -339,14 +339,55 @@ $df
 | Hadoop     | 21    |
 | Spark      | 21    |
 | R          | 20    |
-And for the Python only:
+Without `Python`:
 
 ```sh
 $df
-| filter-by-intersection 'stack' ['python'] 
+| filter-by-intersection 'stack' ['python'] --invert
 | get 'stack' 
 | flatten 
 | uniq --count 
 | sort-by count --reverse 
-| where count > ($df | filter-by-intersection 'stack' ['python'] | lenght) * 0.3
+| first 10
 ```
+
+| value      | count |
+| ---------- | ----- |
+| React      | 31    |
+| Java       | 26    |
+| Kubernetes | 25    |
+| TypeScript | 23    |
+| AWS        | 22    |
+| Kotlin     | 21    |
+| C++        | 20    |
+| Linux      | 17    |
+| Docker     | 15    |
+| Next.js    | 15    |
+Looks like the most of the jobs require `Python` (as queried from LinkedIn), but there r also some front-end, `Java` and `C++`b jobs
+
+Magic `filter-by-intersection` function is custom:
+```sh
+# Filters rows by intersecting given `column` with `requirements`
+# Case insensitive and works only if ALL requirements exist in a `column` value
+# If `--invert` then works as symmetric difference
+def filter-by-intersection [
+    column: string
+    requirements: list<string>
+   --invert (-i)
+] {
+    let required_stack = $requirements | par-each { |el| str downcase }
+    let required_len = if $reverse { 0 } else { ($requirements | length )}
+    $in
+    | filter { |row| 
+        $required_len == (
+            $row 
+            | get $column 
+            | par-each { |el| str downcase } 
+            | where ($it in $requirements) 
+            | length
+        )
+    }
+}
+```
+
+What about experience requirement for each position in  `Python`?
