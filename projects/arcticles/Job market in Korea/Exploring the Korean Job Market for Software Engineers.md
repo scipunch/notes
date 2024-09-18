@@ -170,7 +170,7 @@ cat result.json
 | to md --pretty 
 ```
 
-# Data analysis
+# Last steps before analysis
 We already have several ready to use features (`title` and `skills`), but I want more:
 - Years of experience
 - Degree 
@@ -267,6 +267,8 @@ cat job_descriptions_analysis.json
 | save full.json
 ```
 
+Our data is ready to analyze!
+
 ```sh
 cat full.json | from json | columns
 ╭────┬──────────────────╮
@@ -294,3 +296,44 @@ cat full.json | from json | columns
 │ 21 │ skills           │
 ╰────┴──────────────────╯
 ```
+
+# Analysis
+
+```sh
+$env.DATA_PATH = 'full.json'
+```
+
+
+```sh
+cat $env.DATA_PATH 
+| from json 
+| get --ignore-errors 'stack' 
+| flatten 
+| uniq --count 
+| sort-by count --reverse 
+| first 20 
+| to md --pretty
+```
+
+| value      | count |
+| ---------- | ----- |
+| Python     | 185   |
+| Java       | 70    |
+| AWS        | 65    |
+| Kubernetes | 61    |
+| SQL        | 54    |
+| C++        | 46    |
+| Docker     | 42    |
+| Linux      | 41    |
+| React      | 37    |
+| Kotlin     | 34    |
+| JavaScript | 30    |
+| C          | 30    |
+| Kafka      | 28    |
+| TypeScript | 26    |
+| GCP        | 25    |
+| Azure      | 24    |
+| Tableau    | 22    |
+| Hadoop     | 21    |
+| Spark      | 21    |
+| R          | 20    |
