@@ -345,7 +345,7 @@ $df
 | filter-by-intersection 'stack' ['python']
 | get 'stack' 
 | flatten 
-| where $it != 'Python'
+| where $it != 'Python' # Exclude python itself
 | uniq --count 
 | sort-by count --reverse 
 | first 10
