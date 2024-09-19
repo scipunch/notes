@@ -390,9 +390,9 @@ $df
 | Linux      | 17    |
 | Docker     | 15    |
 | Next.js    | 15    |
-The most of the jobs require `Python`, but there r also some front-end, `Java` and `C++` jobs
+The most of the jobs require `Python`, but there are some front-end, `Java` and `C++` jobs
 
-Magic `filter-by-intersection` function is a custom one:
+Magic `filter-by-intersection` function is a custom one and allows filter list values that include given set of elements:
 
 ```sh
 # Filters rows by intersecting given `column` with `requirements`
@@ -404,7 +404,7 @@ def filter-by-intersection [
    --invert (-i)
 ] {
     let required_stack = $requirements | par-each { |el| str downcase }
-    let required_len = if $reverse { 0 } else { ($requirements | length )}
+    let required_len = if $invert { 0 } else { ($requirements | length )}
     $in
     | filter { |row| 
         $required_len == (
