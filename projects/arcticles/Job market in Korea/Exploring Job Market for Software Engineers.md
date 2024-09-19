@@ -422,73 +422,66 @@ What about experience requirement for each position in  `Python`?
 
 ```sh
 $df
-| where 'position' !~ 'other'
 | filter-by-intersection 'stack' ['python'] 
 | group-by 'position' --to-table
+| insert 'group_size' { |group| $group.items | length } 
+| where 'group_size' >= 10
 | insert 'experience' { |group| 
     $group.items 
     | get 'experience'
     | uniq --count  
     | sort-by 'count' --reverse 
+    | update 'value' { |row| if $row.value == null { 0 } else { $row.value }}
+    | rename --column { 'value': 'years' }
     | first 3 
 } 
-| insert 'group_size' { |group| $group.items | length } 
-| insert 'degree_requirement' { |group| $group.items | each { |row| $row.degree != null } | uniq --count }
+| insert 'degree_requirement' { |group| 
+    $group.items 
+    | each { |row| $row.degree != null } 
+    | uniq --count 
+    | sort-by 'value'
+    | rename --column { 'value': 'required' }
+}
 | sort-by 'group_size' --reverse 
-| select 'group' 'experience' 'group_size' 
+| select 'group' 'group_size' 'experience' 'degree_requirement'
 ```
 
-```sh
-╭───┬─────────────────────┬───────────────────────┬────────────╮
-│ # │        group        │      experience       │ group_size │
-├───┼─────────────────────┼───────────────────────┼────────────┤
-│ 0 │ senior              │ ╭───┬───────┬───────╮ │         83 │
-│   │                     │ │ # │ value │ count │ │            │
-│   │                     │ ├───┼───────┼───────┤ │            │
-│   │                     │ │ 0 │     5 │    30 │ │            │
-│   │                     │ │ 1 │       │    11 │ │            │
-│   │                     │ │ 2 │     7 │    11 │ │            │
-│   │                     │ ╰───┴───────┴───────╯ │            │
-│ 1 │ lead                │ ╭───┬───────┬───────╮ │         12 │
-│   │                     │ │ # │ value │ count │ │            │
-│   │                     │ ├───┼───────┼───────┤ │            │
-│   │                     │ │ 0 │       │     5 │ │            │
-│   │                     │ │ 1 │    10 │     4 │ │            │
-│   │                     │ │ 2 │     5 │     1 │ │            │
-│   │                     │ ╰───┴───────┴───────╯ │            │
-│ 2 │ middle              │ ╭───┬───────┬───────╮ │         10 │
-│   │                     │ │ # │ value │ count │ │            │
-│   │                     │ ├───┼───────┼───────┤ │            │
-│   │                     │ │ 0 │     3 │     4 │ │            │
-│   │                     │ │ 1 │     5 │     3 │ │            │
-│   │                     │ │ 2 │     2 │     2 │ │            │
-│   │                     │ ╰───┴───────┴───────╯ │            │
-│ 3 │ manager             │ ╭───┬───────┬───────╮ │          6 │
-│   │                     │ │ # │ value │ count │ │            │
-│   │                     │ ├───┼───────┼───────┤ │            │
-│   │                     │ │ 0 │       │     5 │ │            │
-│   │                     │ │ 1 │     8 │     1 │ │            │
-│   │                     │ ╰───┴───────┴───────╯ │            │
-╰───┴─────────────────────┴───────────────────────┴────────────╯
+```
+╭───┬────────┬────────────┬───────────────────────┬──────────────────────────╮
+│ # │ group  │ group_size │      experience       │    degree_requirement    │
+├───┼────────┼────────────┼───────────────────────┼──────────────────────────┤
+│ 0 │ senior │         83 │ ╭───┬───────┬───────╮ │ ╭───┬──────────┬───────╮ │
+│   │        │            │ │ # │ years │ count │ │ │ # │ required │ count │ │
+│   │        │            │ ├───┼───────┼───────┤ │ ├───┼──────────┼───────┤ │
+│   │        │            │ │ 0 │     5 │    30 │ │ │ 0 │ false    │    26 │ │
+│   │        │            │ │ 1 │     0 │    11 │ │ │ 1 │ true     │    57 │ │
+│   │        │            │ │ 2 │     7 │    11 │ │ ╰───┴──────────┴───────╯ │
+│   │        │            │ ╰───┴───────┴───────╯ │                          │
+│ 1 │ other  │         14 │ ╭───┬───────┬───────╮ │ ╭───┬──────────┬───────╮ │
+│   │        │            │ │ # │ years │ count │ │ │ # │ required │ count │ │
+│   │        │            │ ├───┼───────┼───────┤ │ ├───┼──────────┼───────┤ │
+│   │        │            │ │ 0 │     0 │     8 │ │ │ 0 │ false    │    12 │ │
+│   │        │            │ │ 1 │     5 │     1 │ │ │ 1 │ true     │     2 │ │
+│   │        │            │ │ 2 │     3 │     1 │ │ ╰───┴──────────┴───────╯ │
+│   │        │            │ ╰───┴───────┴───────╯ │                          │
+│ 2 │ lead   │         12 │ ╭───┬───────┬───────╮ │ ╭───┬──────────┬───────╮ │
+│   │        │            │ │ # │ years │ count │ │ │ # │ required │ count │ │
+│   │        │            │ ├───┼───────┼───────┤ │ ├───┼──────────┼───────┤ │
+│   │        │            │ │ 0 │     0 │     5 │ │ │ 0 │ false    │     6 │ │
+│   │        │            │ │ 1 │    10 │     4 │ │ │ 1 │ true     │     6 │ │
+│   │        │            │ │ 2 │     5 │     1 │ │ ╰───┴──────────┴───────╯ │
+│   │        │            │ ╰───┴───────┴───────╯ │                          │
+│ 3 │ middle │         10 │ ╭───┬───────┬───────╮ │ ╭───┬──────────┬───────╮ │
+│   │        │            │ │ # │ years │ count │ │ │ # │ required │ count │ │
+│   │        │            │ ├───┼───────┼───────┤ │ ├───┼──────────┼───────┤ │
+│   │        │            │ │ 0 │     3 │     4 │ │ │ 0 │ false    │     4 │ │
+│   │        │            │ │ 1 │     5 │     3 │ │ │ 1 │ true     │     6 │ │
+│   │        │            │ │ 2 │     2 │     2 │ │ ╰───┴──────────┴───────╯ │
+│   │        │            │ ╰───┴───────┴───────╯ │                          │
+╰───┴────────┴────────────┴───────────────────────┴──────────────────────────╯
 ```
 
-Also, what about degree requirement for the senior python developers?
-
-```sh
-$df 
-| filter-by-intersection 'stack' ['python'] 
-| where 'position' == 'senior' 
-| each { |row| $row.degree != null } 
-| uniq -c 
-| rename --column { value: 'degree_required' }
-| to md --pretty
-```
-
-| degree_required | count |
-| --------------- | ----- |
-| false           | 26    |
-| true            | 57    |
-Extraction of the most common requirements wasn't as easy as prev steps. So I've met a classification problem which I'm going to describe in the next chapter of this article.
+Extraction of the most common requirements wasn't as easy as previous steps. So I've met a classification problem, and I'm going to describe my solution in the next chapter of this article.
 
 # Conclusion
 We successfully extracted and analyzed job data from LinkedIn using the `linkedin_jobs_scraper` package. Python is the most popular technology for now. Responsibilities in the actual dataset are too sparse and need better processing to make functional classes that will help in CV creation.
