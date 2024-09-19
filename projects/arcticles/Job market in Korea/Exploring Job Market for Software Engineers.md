@@ -487,3 +487,4 @@ Extraction of the most common requirements wasn't as easy as previous steps. So 
 
 # Conclusion
 We successfully extracted and analyzed job data from LinkedIn using the `linkedin_jobs_scraper` package. Python is the most popular technology for now. Responsibilities in the actual dataset are too sparse and need better processing to make functional classes that will help in CV creation.
+
