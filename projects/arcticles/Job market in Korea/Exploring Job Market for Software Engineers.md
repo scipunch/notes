@@ -427,12 +427,13 @@ $df
 | group-by 'position' --to-table
 | insert 'experience' { |group| 
     $group.items 
-    | get 'experience' 
+    | get 'experience'
     | uniq --count  
     | sort-by 'count' --reverse 
     | first 3 
 } 
 | insert 'group_size' { |group| $group.items | length } 
+| insert 'degree_requirement' { |group| $group.items | each { |row| $row.degree != null } | uniq --count }
 | sort-by 'group_size' --reverse 
 | select 'group' 'experience' 'group_size' 
 ```
