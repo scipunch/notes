@@ -1,4 +1,6 @@
 # Introduction
+In this article, we will explore the technologies and processes used to extract and analyze job data from LinkedIn. We utilized three main tools: Python, Nu shell, and ChatGPT.
+
 South Korea has been catching a lot of attention lately as a tech hotspot, making it an intriguing destination for software engineers. As someone who's looking to immigrate there, I decided to do some homemade research to get a clearer picture of the job market. This isn't a big, formal study — just a personal project to help me understand what to expect.
 
 To gather data, I turned to LinkedIn, scraping job listings using Python. For the initial data crunching, I used Nu Shell, which helped me sift through the raw information efficiently. Then, to dig deeper into the job descriptions and extract meaningful insights, I used ChatGPT for classification and feature extraction.
