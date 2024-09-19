@@ -446,6 +446,8 @@ $df
 | select 'group' 'group_size' 'experience' 'degree_requirement'
 ```
 
+Output:
+
 ```
 ╭───┬────────┬────────────┬───────────────────────┬──────────────────────────╮
 │ # │ group  │ group_size │      experience       │    degree_requirement    │
