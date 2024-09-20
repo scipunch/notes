@@ -27,6 +27,24 @@
             }
           }
         ]
+      },
+      {
+        "id": "b3575ebc7b049bd8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5ec5dfe2793847bb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "projects/news_podcast_maker/Telegram Channel Scraper.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -92,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "projects/news_podcast_maker/Kanban.md",
+                "file": "projects/news_podcast_maker/Telegram Channel Scraper.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "projects/news_podcast_maker/Kanban.md",
+                "file": "projects/news_podcast_maker/Telegram Channel Scraper.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "projects/news_podcast_maker/Kanban.md"
+                "file": "projects/news_podcast_maker/Telegram Channel Scraper.md"
               }
             }
           }
@@ -157,10 +175,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "7ab6ced7fb8b84de",
+  "active": "5ec5dfe2793847bb",
   "lastOpenFiles": [
-    "projects/arcticles/Job market in Korea/Exploring Job Market for Software Engineers.md",
     "projects/news_podcast_maker/Kanban.md",
+    "projects/news_podcast_maker/Telegram Channel Scraper.md",
+    "projects/arcticles/Job market in Korea/Exploring Job Market for Software Engineers.md",
     "projects/news_podcast_maker/Untitled.md",
     "projects/news_podcast_maker",
     "projects/movie_spot/Index.md",
@@ -203,7 +222,6 @@
     "Korea.md",
     "Untitled Kanban.md",
     "2024-09-16.md",
-    "personal/reading_list.md",
     "personal/books",
     "Untitled.canvas"
   ]
