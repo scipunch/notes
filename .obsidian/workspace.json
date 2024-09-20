@@ -38,7 +38,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/news_podcast_maker/inner/Service Architecture.md",
+                "file": "projects/news_podcast_maker/Random thoughts.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "projects/news_podcast_maker/inner/Service Architecture.md",
+                "file": "projects/news_podcast_maker/Random thoughts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "projects/news_podcast_maker/inner/Service Architecture.md",
+                "file": "projects/news_podcast_maker/Random thoughts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "projects/news_podcast_maker/inner/Service Architecture.md"
+                "file": "projects/news_podcast_maker/Random thoughts.md"
               }
             }
           }
@@ -177,8 +177,8 @@
   },
   "active": "549993afada35719",
   "lastOpenFiles": [
-    "projects/news_podcast_maker/Kanban.md",
     "projects/news_podcast_maker/inner/Service Architecture.md",
+    "projects/news_podcast_maker/Kanban.md",
     "projects/news_podcast_maker/inner/Posts grouping.md",
     "projects/news_podcast_maker/Random thoughts.md",
     "projects/news_podcast_maker/inner",
