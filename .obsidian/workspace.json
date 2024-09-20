@@ -38,7 +38,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/news_podcast_maker/Posts grouping.md",
+                "file": "projects/news_podcast_maker/inner/Posts grouping.md",
                 "mode": "source",
                 "source": false
               }
@@ -177,11 +177,12 @@
   },
   "active": "3fa7e1bd149f953e",
   "lastOpenFiles": [
-    "projects/news_podcast_maker/Posts grouping.md",
+    "projects/news_podcast_maker/Random thoughts.md",
+    "projects/news_podcast_maker/inner/Posts grouping.md",
     "projects/news_podcast_maker/Kanban.md",
-    "projects/news_podcast_maker/Telegram Channel Scraper.md",
+    "projects/news_podcast_maker/inner",
+    "projects/news_podcast_maker/inner/Telegram Channel Scraper.md",
     "projects/arcticles/Job market in Korea/Exploring Job Market for Software Engineers.md",
-    "projects/news_podcast_maker/Untitled.md",
     "projects/news_podcast_maker",
     "projects/movie_spot/Index.md",
     "projects/arcticles/Job market in Korea",
@@ -221,8 +222,6 @@
     "attachments",
     "projects/universal_playlist",
     "Korea.md",
-    "Untitled Kanban.md",
-    "personal/books",
     "Untitled.canvas"
   ]
 }
