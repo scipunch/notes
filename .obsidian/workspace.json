@@ -11,11 +11,18 @@
             "id": "3fa7e1bd149f953e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "projects/arcticles/Job market in Korea/Exploring Job Market for Software Engineers.md",
-                "mode": "source",
-                "source": false
+                "file": "projects/news_podcast_maker/Kanban.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false,
+                    false
+                  ]
+                }
               }
             }
           }
@@ -69,8 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 219.5,
-    "collapsed": true
+    "width": 219.5
   },
   "right": {
     "id": "b7a282d019526aa3",
@@ -86,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "projects/arcticles/Job market in Korea/Exploring Job Market for Software Engineers.md",
+                "file": "projects/news_podcast_maker/Kanban.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "projects/arcticles/Job market in Korea/Exploring Job Market for Software Engineers.md",
+                "file": "projects/news_podcast_maker/Kanban.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "projects/arcticles/Job market in Korea/Exploring Job Market for Software Engineers.md"
+                "file": "projects/news_podcast_maker/Kanban.md"
               }
             }
           }
@@ -151,9 +157,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "3fa7e1bd149f953e",
+  "active": "7ab6ced7fb8b84de",
   "lastOpenFiles": [
     "projects/arcticles/Job market in Korea/Exploring Job Market for Software Engineers.md",
+    "projects/news_podcast_maker/Kanban.md",
+    "projects/news_podcast_maker/Untitled.md",
+    "projects/news_podcast_maker",
     "projects/movie_spot/Index.md",
     "projects/arcticles/Job market in Korea",
     "projects/arcticles",
@@ -196,9 +205,6 @@
     "2024-09-16.md",
     "personal/reading_list.md",
     "personal/books",
-    "Untitled 1.md",
-    "Become Korean citizen.md",
-    "personal/self_growth",
     "Untitled.canvas"
   ]
 }
