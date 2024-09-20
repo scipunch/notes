@@ -7,6 +7,8 @@ kanban-plugin: board
 ## Backlog
 
 - [ ] [[Telegram Channel Scraper]]
+- [ ] [[Posts grouping]]
+- [ ] Service Architecture
 
 
 ## To Do
