@@ -8,7 +8,7 @@ kanban-plugin: board
 
 - [ ] [[Telegram Channel Scraper]]
 - [ ] [[Posts grouping]]
-- [ ] Service Architecture
+- [ ] [[Service Architecture]]
 
 
 ## To Do

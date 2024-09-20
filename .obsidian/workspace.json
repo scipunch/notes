@@ -29,16 +29,16 @@
         ]
       },
       {
-        "id": "45eeb25454896476",
+        "id": "eb562360273d6dc6",
         "type": "tabs",
         "children": [
           {
-            "id": "b8d645bc8d53c4a5",
+            "id": "549993afada35719",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/news_podcast_maker/inner/Posts grouping.md",
+                "file": "projects/news_podcast_maker/inner/Service Architecture.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "projects/news_podcast_maker/inner/Posts grouping.md",
+                "file": "projects/news_podcast_maker/inner/Service Architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "projects/news_podcast_maker/inner/Posts grouping.md",
+                "file": "projects/news_podcast_maker/inner/Service Architecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "projects/news_podcast_maker/inner/Posts grouping.md"
+                "file": "projects/news_podcast_maker/inner/Service Architecture.md"
               }
             }
           }
@@ -175,11 +175,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "b8d645bc8d53c4a5",
+  "active": "549993afada35719",
   "lastOpenFiles": [
     "projects/news_podcast_maker/Kanban.md",
-    "projects/news_podcast_maker/Random thoughts.md",
+    "projects/news_podcast_maker/inner/Service Architecture.md",
     "projects/news_podcast_maker/inner/Posts grouping.md",
+    "projects/news_podcast_maker/Random thoughts.md",
     "projects/news_podcast_maker/inner",
     "projects/news_podcast_maker/inner/Telegram Channel Scraper.md",
     "projects/arcticles/Job market in Korea/Exploring Job Market for Software Engineers.md",
