@@ -11,11 +11,18 @@
             "id": "3fa7e1bd149f953e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "projects/news_podcast_maker/Random thoughts.md",
-                "mode": "source",
-                "source": false
+                "file": "projects/news_podcast_maker/Kanban.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false,
+                    false
+                  ]
+                }
               }
             }
           }
@@ -85,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "projects/news_podcast_maker/Random thoughts.md",
+                "file": "projects/news_podcast_maker/Kanban.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "projects/news_podcast_maker/Random thoughts.md",
+                "file": "projects/news_podcast_maker/Kanban.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "projects/news_podcast_maker/Random thoughts.md"
+                "file": "projects/news_podcast_maker/Kanban.md"
               }
             }
           }
@@ -152,10 +159,10 @@
   },
   "active": "3fa7e1bd149f953e",
   "lastOpenFiles": [
+    "projects/news_podcast_maker/Random thoughts.md",
     "projects/news_podcast_maker/Kanban.md",
     "projects/news_podcast_maker/inner/Posts grouping.md",
     "projects/news_podcast_maker/inner/Telegram Channel Scraper.md",
-    "projects/news_podcast_maker/Random thoughts.md",
     "projects/news_podcast_maker/inner/Service Architecture.md",
     "projects/news_podcast_maker/inner",
     "projects/arcticles/Job market in Korea/Exploring Job Market for Software Engineers.md",
