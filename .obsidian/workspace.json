@@ -11,18 +11,11 @@
             "id": "3fa7e1bd149f953e",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "projects/news_podcast_maker/Kanban.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false,
-                    false
-                  ]
-                }
+                "file": "personal/books/Fluent python.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -92,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "projects/news_podcast_maker/Kanban.md",
+                "file": "personal/books/Fluent python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "projects/news_podcast_maker/Kanban.md",
+                "file": "personal/books/Fluent python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "projects/news_podcast_maker/Kanban.md"
+                "file": "personal/books/Fluent python.md"
               }
             }
           }
@@ -159,8 +152,8 @@
   },
   "active": "3fa7e1bd149f953e",
   "lastOpenFiles": [
-    "projects/news_podcast_maker/Random thoughts.md",
     "projects/news_podcast_maker/Kanban.md",
+    "projects/news_podcast_maker/Random thoughts.md",
     "projects/news_podcast_maker/inner/Posts grouping.md",
     "projects/news_podcast_maker/inner/Telegram Channel Scraper.md",
     "projects/news_podcast_maker/inner/Service Architecture.md",
