@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "personal/books/Fluent python.md",
+                "file": "projects/podcastio/inner/Posts grouping.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "personal/books/Fluent python.md",
+                "file": "projects/podcastio/inner/Posts grouping.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "personal/books/Fluent python.md",
+                "file": "projects/podcastio/inner/Posts grouping.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "personal/books/Fluent python.md"
+                "file": "projects/podcastio/inner/Posts grouping.md"
               }
             }
           }
@@ -152,14 +152,16 @@
   },
   "active": "3fa7e1bd149f953e",
   "lastOpenFiles": [
-    "projects/news_podcast_maker/Kanban.md",
-    "projects/news_podcast_maker/Random thoughts.md",
-    "projects/news_podcast_maker/inner/Posts grouping.md",
-    "projects/news_podcast_maker/inner/Telegram Channel Scraper.md",
-    "projects/news_podcast_maker/inner/Service Architecture.md",
-    "projects/news_podcast_maker/inner",
+    "projects/podcastio/Kanban.md",
+    "projects/podcastio/Random thoughts.md",
+    "personal/Mind map.md",
+    "projects/podcastio/inner/Telegram Channel Scraper.md",
+    "personal/books/Fluent python.md",
+    "projects/podcastio/inner/Posts grouping.md",
+    "projects/podcastio/inner/Service Architecture.md",
+    "projects/podcastio/inner",
     "projects/arcticles/Job market in Korea/Exploring Job Market for Software Engineers.md",
-    "projects/news_podcast_maker",
+    "projects/podcastio",
     "projects/movie_spot/Index.md",
     "projects/arcticles/Job market in Korea",
     "projects/arcticles",
@@ -174,7 +176,6 @@
     "personal/self_growth/Kanban.md",
     "projects/movie_spot",
     "personal/Reading links.md",
-    "personal/Mind map.md",
     "personal/self_growth/Index.md",
     "personal/self_growth/inner/Get big arms.md",
     "personal/self_growth/inner/Become Korean citizen.md",
@@ -194,7 +195,6 @@
     "attachments/Pasted Image 20240917213214_714.png",
     "Excalidraw",
     "personal/self growth/Untitled.md",
-    "personal/books/Fluent python.md",
     "attachments",
     "projects/universal_playlist",
     "Korea.md",
