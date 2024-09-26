@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/podcastio/inner/test.md",
+                "file": "projects/podcastio/inner/Telegram Channel Scraper.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "projects/podcastio/inner/test.md",
+                "file": "projects/podcastio/inner/Telegram Channel Scraper.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "projects/podcastio/inner/test.md",
+                "file": "projects/podcastio/inner/Telegram Channel Scraper.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "projects/podcastio/inner/test.md"
+                "file": "projects/podcastio/inner/Telegram Channel Scraper.md"
               }
             }
           }
@@ -165,9 +165,9 @@
   },
   "active": "9a83578b4e39ff80",
   "lastOpenFiles": [
-    "projects/podcastio/inner/Posts grouping.md",
-    "projects/podcastio/inner/test.md",
     "projects/podcastio/Kanban.md",
+    "projects/podcastio/inner/test.md",
+    "projects/podcastio/inner/Posts grouping.md",
     "projects/podcastio/Random thoughts.md",
     "personal/Mind map.md",
     "projects/podcastio/inner/Telegram Channel Scraper.md",
