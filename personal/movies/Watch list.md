@@ -69,4 +69,5 @@
 | <input type="checkbox">         | Most Popular                          |                                  |
 | <input type="checkbox">         | You may also like                     |                                  |
 | <input type="checkbox">         | Privacy Preference Center             |                                  |
-| <input type="checkbox">         |                                       |                                  |
+| <input type="checkbox">         | Postman Blues                         |                                  |
+| <input type="checkbox" checked> | 2001: Space Odyssey                   |                                  |
