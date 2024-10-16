@@ -5,4 +5,3 @@
 |----------------+-------+-------------+------------------|
 | New jack swing | genre | [[file:genre/NewJackSwing.org][Note]]        | [[https://www.youtube.com/playlist?list=PLb15rbk6I4pOkBswqMphwRFm_OWdxFJq-][YouTube Playlist]] |
 | UK garage      | genre | [[file:genre/UKGarage.org][Note]]        | [[https://www.youtube.com/playlist?list=PLb15rbk6I4pM87zBwudvEErIpMT3dHw9W][YouTube Playlist]] |
-|                |       |             |                  |
