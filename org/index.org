@@ -2,4 +2,5 @@
 #+author: SciPunch
 
 * SciPunch Blog
-- [[file:blog/ideas.org][ideas]]
+- [[file:blog/ideas.org][Ideas]]
+- [[file:blog/wiki.org][Wiki]]
