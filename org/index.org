@@ -1,0 +1,5 @@
+#+title: My Notes!
+#+author: SciPunch
+
+* SciPunch Blog
+- [[file:blog/ideas.org][ideas]]
