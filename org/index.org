@@ -1,6 +1,15 @@
-#+title: My Notes!
+#+title: Notes
 #+author: SciPunch
+
+* My tasks
+- [[file:global-tasks.org][Global]]
 
 * SciPunch Blog
 - [[file:blog/ideas.org][Ideas]]
 - [[file:blog/wiki.org][Wiki]]
+
+* Wiki
+- [[file:wiki/reading-list.org][Reading list]]
+
+* Ideas
+- [[file:event-based-os.org][Event based OS]]

@@ -1,7 +1,12 @@
 #+title: SciPunch Blog Ideas
 #+author: SciPunch
 
-| Idea           | Type  | Description | Link             |
-|----------------+-------+-------------+------------------|
-| New jack swing | genre | [[file:genre/NewJackSwing.org][Note]]        | [[https://www.youtube.com/playlist?list=PLb15rbk6I4pOkBswqMphwRFm_OWdxFJq-][YouTube Playlist]] |
-| UK garage      | genre | [[file:genre/UKGarage.org][Note]]        | [[https://www.youtube.com/playlist?list=PLb15rbk6I4pM87zBwudvEErIpMT3dHw9W][YouTube Playlist]] |
+| Idea                                            | Type       | Description | Link             |
+|-------------------------------------------------+------------+-------------+------------------|
+| New jack swing                                  | genre      | [[file:genre/NewJackSwing.org][Note]]        | [[https://www.youtube.com/playlist?list=PLb15rbk6I4pOkBswqMphwRFm_OWdxFJq-][YouTube Playlist]] |
+| UK garage                                       | genre      | [[file:genre/UKGarage.org][Note]]        | [[https://www.youtube.com/playlist?list=PLb15rbk6I4pM87zBwudvEErIpMT3dHw9W][YouTube Playlist]] |
+| RSS feed creator                                | project    |             | [[https://createfeed.fivefilters.org/][Existing project]] |
+| Spotify recommendation biased algorithm         | research   | [[file:research/spotify-recommendation-algorithm.org::*Is Spotify Ruining Our Taste in Music?][Note]]        | [[https://mastersofmedia.hum.uva.nl/blog/2021/10/29/do-fans-also-like-in-what-ways-do-big-artists-profit-from-spotifys-recommendation-system/][Article]]          |
+| How do I learn about a new genre                | experience |             |                  |
+| Open Bandcamp album on every streaming platform | tool       |             | [[https://chromewebstore.google.com/detail/odesli-for-bandcamp/ikgagbiblpfihbccekppfbpmjekingcm][Chrome extension]] |
+

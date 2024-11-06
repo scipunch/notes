@@ -2,10 +2,14 @@
 #+author: SciPunch
 
 * Resources
-| Name             | Description                        | URL                              |
-|------------------+------------------------------------+----------------------------------|
-| Musicmap         | Relation of the all music genres   | https://www.musicmap.info/       |
-| Video Game Music | Download game music in FLAC        | https://downloads.khinsider.com/ |
-| Bandcamp         | Fresh music releases               | https://bandcamp.com             |
-| Funkwhale        | Decentralized music share platform | https://www.funkwhale.audio      |
-|                  |                                    |                                  |
+| Name                 | Description                        | URL                             |
+|----------------------+------------------------------------+---------------------------------|
+| Musicmap             | Relation of the all music genres   | https://www.musicmap.info       |
+| Video Game Music     | Download game music in FLAC        | https://downloads.khinsider.com |
+| Bandcamp             | Fresh music releases               | https://bandcamp.com            |
+| Funkwhale            | Decentralized music share platform | https://www.funkwhale.audio     |
+| Artcore              | Fresh music releases               | https://www.artcore.com         |
+| Just got loud        | Fresh music releases               | https://justgotloud.com         |
+| Ac55id               | Fresh music releases               | https://www.ac55id.com          |
+| Metalabel            | Creative work releases             | https://www.metalabel.com       |
+| Bandcamp alternative | List of bandcamp's alternatives    | https://bandcampalternative.com |
