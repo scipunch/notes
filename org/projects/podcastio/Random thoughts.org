@@ -1,0 +1,6 @@
+#+title: Random Thoughts
+#+author: SciPunch
+
+- [ ] Tokens per week barrier. There can be a lot of posts from one person, and we risk to lost big money.
+- [ ] What languages?
+- [ ] Inform customer about generated script and podcast generation
