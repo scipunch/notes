@@ -1,0 +1,46 @@
+#+title: Colory
+#+author: SciPunch
+
+* App Idea: Color Learning App
+
+** Core Functionality
+*** How do users interact with the app?
+- The camera will be integrated into the app, so it'll be impossible to "cheat" the colors.
+
+*** How are the "random N colors" selected?
+- The number is decided by the system. It's part of a quest to be completed by the end user.
+
+** User Experience
+*** Is there educational content on color names or their meanings?
+- Yes, the app will provide info on color history, psychology, and usage in design.
+
+*** How do users receive feedback after submitting a photo?
+- Possible feedback options:
+  1. **Match score**: Display a percentage based on how closely the photo matches the requested colors.
+  2. **Visual comparison**: Show the selected colors alongside the user’s photo for a side-by-side comparison.
+  3. **Feedback messages**: Provide encouraging or constructive feedback (e.g., “Great job! You found 3 out of 5 colors!”).
+  4. **Color accuracy**: Indicate which colors were found, with a confidence level.
+  - *Feedback adjustments*:
+    - Accept results starting from a certain percentage (e.g., 80%).
+    - Show detailed info about the actual color from the photo (name, hex code, related design usage).
+
+** Monetization
+*** What is the monetization strategy?
+- Subscription that could be bought with crypto tokens. Tokens can also be used to keep "win streaks", skip some colors, and more.
+
+*** Partnerships
+- Not for now.
+
+** Additional Considerations
+*** How will the app handle different lighting conditions and photo quality?
+- Will there be filters or tools to help users take better pictures (e.g., focus on color accuracy)?
+
+*** Will there be a social or competitive aspect (e.g., leaderboards, challenges with friends)?
+
+*** Will there be rewards for learning or finding more difficult colors (e.g., badges, levels)?
+
+*** How will user data be handled? Any privacy concerns with camera access or photo uploads?
+
+*** Will there be seasonal or themed challenges based on trending colors or events?
+
+*** How will the app scale in terms of color database (will it expand as more colors are learned)?
