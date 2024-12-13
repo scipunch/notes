@@ -271,6 +271,19 @@ docker plugin install grafana/loki-docker-driver:2.9.2 --alias loki --grant-all-
 }
 #+end_src
 
+*** Nginx
+Thats important to set correct ~Host~ header for the websocket connetions
+
+#+begin_src conf
+server {
+    server_name grafana.scipunch.com;
+    location / {
+        proxy_set_header Host grafana.scipunch.com;
+        proxy_pass http://127.0.0.1:3000;              
+    }
+}
+#+end_src
+
 ** Jenkins
 https://www.jenkins.io/doc/book/installing/linux/#long-term-support-release
 
