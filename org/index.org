@@ -10,6 +10,7 @@
 
 * Wiki
 - [[file:wiki/reading-list.org][Reading list]]
+- [[file:wiki/homelab.org][Home lab]]
 
 * Ideas
 - [[file:event-based-os.org][Event based OS]]
