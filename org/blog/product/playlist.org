@@ -1,0 +1,7 @@
+#+title: Playlist
+#+author: SciPunch
+
+* Features
+- Three word taste description (like for coffee beans)
+- Photo \ video inspiration
+- Listen right in the telegram

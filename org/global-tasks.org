@@ -1,0 +1,54 @@
+#+title: Global tasks
+#+author: SciPunch
+
+* Life
+** PLAN Buy an apartment [0/3]
+*** TODO Stage 1 [0/3]
+- [ ] Text to the realtor
+- [ ] Calculate associated expenses
+- [ ] Make districts tier list
+  - [ ] Find metro map
+    
+*** TODO Stage 2 [0/2]
+- [ ] Sign a contract with realtor
+- [ ] Check out favourite districts
+ 
+*** TODO Stage 3 [0/2]
+- [ ] Buy an apartment
+- [ ] Make a residence permit
+
+* Make money
+** Active
+*** PLAN Freelance project [0/4]
+- [ ] Actualize my personal website
+- [ ] Research the market
+- [ ] Apply to the project
+- [ ] Earn money from the project
+*** 
+*** PLAN Cyberpass [0/2]
+- [ ] Finish 2nd stage
+- [ ] Finish 3d stage
+  
+*** PLAN Podcastio [0/2]
+- [ ] Run MVP in production
+- [ ] Earn first investemnts
+  
+** Semi-active
+*** PLAN Telegram blogs [0/2]
+- [ ] Moviegram
+- [ ] Personal blog
+  
+** Passive
+*** TODO Make a savings account
+
+* Self dev
+** Health
+*** Sports
+
+** Social
+*** Meet new ppl
+
+** Career
+*** Business books
+*** 
+* Entertainment

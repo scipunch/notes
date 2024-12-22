@@ -1,0 +1,12 @@
+#+title: Event based OS
+#+author: SciPunch
+:CREATED: <2024-11-05 Tue>
+
+* Opprotunity
+Get rid of crowded interfaces that steal so expensive pieces of concentration while doing stuff. Why don't need see the battery level, current time, amount of notifications and a lot of tray icons all the time
+
+* Task
+Build the desktop environment would be in starting to use as simple as rock and a stick. You start with only one shortcut to open a prompt. You can send any query there and LLM will catch and do, what you need. Change the theme, open an app, research take, install software, show news, describe your mail, play your favorite music and etc.
+
+The concept of the status bar on the top (or bottom) is forbidden in favour of events. You want to know the battery status only on the several levels (full, half and low for example), the time could be shown buy the shortcut, but the main drivers are timers and schedules. They will care about your time instead of yourself. What about tray? C'mon, you have the prompt that will do all the stuff for you.
+
