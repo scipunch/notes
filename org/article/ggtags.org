@@ -29,6 +29,8 @@ cd global*
 ./configure --with-universal-ctags=/usr/local/bin/ctags
 make
 sudo make install
-perl plugin-factory/maps2conf.pl /usr/local/bin/ctags '$libdir/gtags/universal-ctags.la' > $HOME/.globalrc
+cp /usr/local/share/gtags/gtags.conf $HOME/.globalrc
 cd ..
 #+end_src
+
+Replace ~:tc=native:~ to ~:tc=new-ctags:~ under the ~default~ entry
