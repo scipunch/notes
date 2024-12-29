@@ -1,0 +1,23 @@
+#+title: Reading list
+#+author: SciPunch
+
+- https://dbdocs.io/
+- https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf
+- https://www.usenix.org/system/files/conference/atc13/atc13-bronson.pdf
+- https://bitcoin.org/bitcoin.pdf
+- https://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf
+- https://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf
+- https://groups.csail.mit.edu/tds/papers/Gilbert/Brewer2.pdf
+- https://notes.stephenholiday.com/Kafka.pdf
+- https://static.googleusercontent.com/media/research.google.com/en//archive/chubby-osdi06.pdf
+- https://www.cs.umb.edu/~poneil/lsmtree.pdf
+- https://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf
+- https://www.cs.princeton.edu/courses/archive/fall09/cos518/papers/chash.pdf
+- https://curtclifton.net/papers/MoseleyMarks06a.pdf
+- https://www.microsoft.com/en-us/research/publication/part-time-parliament/
+- https://raft.github.io/raft.pdf
+- https://lamport.azurewebsites.net/tla/tla.html
+- https://www.usenix.org/system/files/conference/nsdi13/nsdi13-final170_update.pdf
+- https://www.cs.cmu.edu/~harchol/Papers/EuroSys20.pdf
+- https://www.cs.cmu.edu/~crary/819-f09/Landin66.pdf
+- https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf

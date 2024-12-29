@@ -1,0 +1,6 @@
+#+title: Podcastio
+#+author: SciPunch
+
+* Todos
+** TODO One only actor prompt
+** TODO Podcast text summary
