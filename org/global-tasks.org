@@ -1,0 +1,6 @@
+#+title: Global goals
+#+author: SciPunch
+
+* What I want
+* What required
+* How it could be done

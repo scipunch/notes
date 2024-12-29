@@ -1,7 +1,7 @@
 #+title: Notes
 #+author: SciPunch
 
-* My tasks
+* Goals
 - [[file:global-tasks.org][Global]]
 
 * SciPunch Blog
@@ -14,3 +14,4 @@
 
 * Ideas
 - [[file:event-based-os.org][Event based OS]]
+  

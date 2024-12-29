@@ -1,4 +1,4 @@
-#+title: SciPunch Blog Ideas
+#+title: Ideas
 #+author: SciPunch
 
 | Idea                                            | Type       | Description | Link             |

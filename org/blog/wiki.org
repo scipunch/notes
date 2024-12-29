@@ -1,4 +1,4 @@
-#+title: SciPunch Blog Wiki
+#+title: Wiki
 #+author: SciPunch
 
 * Resources
