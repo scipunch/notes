@@ -31,6 +31,7 @@
 - https://docs.python.org/3/library/ast.html
 - https://typing.readthedocs.io/en/latest/
 - https://github.com/sobolevn/the-best-python-course
+- [[https://youtube.com/playlist?list=PLbr8rVGhPD0WQgO97Ao67Q-QVuSbm_Zpz&si=rHtHnR7ONZlkMnKD][Лучший курс по Python]]
 
 * Algorithms
 ** Grep
@@ -43,3 +44,4 @@
 - https://github.com/ruvnet/
 - https://help.openai.com/en/articles/8868588-retrieval-augmented-generation-rag-and-semantic-search-for-gpts
 - https://cdn.openai.com/spec/model-spec-2024-05-08.html#follow-the-chain-of-command
+- [[https://arxiv.org/pdf/2305.13062][Table Meets LLM: Can Large Language Models Understand Structured Table Data? A Benchmark and Empirical Study]]
