@@ -1,0 +1,38 @@
+#+title: LumiCare
+#+author: Goslings
+
+* Analyze current solution
+
+** Credentials (make.com, leadtech.ru) - ?
+
+** Research current solution [0/4]
+- [ ] htmlcsstoimage.com 0h - piece of shit
+- [ ] make.com - 1h
+- [ ] OpenAi vision - depends on image recognition general case (screenshot or shitty png)
+- [ ] leadteh.ru - 1h
+
+** Report stuff [0/3]
+- [ ] Required to rewrite and why
+- [ ] What could be reused
+- [ ] What could be replaced to reduce costs
+
+* New version requirements (features, stack) [0/6]
+- [ ] Increase amount of analyzed components (now 3, wanted N or all) [depends on p.2]
+- [ ] Prompt and possibility to replace it with KNN - 8h (find existing solutions, analyze, test)
+- [ ] Telegram Mini App - Test V0 [0/5]
+  - [ ] Full description of the composition parts
+  - [ ] News feed
+  - [ ] Take a photo / choose from gallery
+  - [ ] Chat support integration
+  - [ ] Recommend skin care by skin traits
+- [ ] Is it available https://core.telegram.org/bots/payments (Stripe / PayPal integration availability) - 30m
+- [ ] Localization - 8h
+
+** Stack 
+- [ ] React (versel), Python
+- [ ] Reasearch usage of [[https://www.npmjs.com/package/opencv-react][OpenCV React]] on a client side
+- [ ] Probably turso could be used for the search. [[https://turso.tech/vector][Official website]]
+- [ ] Find best DB pricing in RF (yandex.ru, selectel.ru, cloud.ru, etc)
+  
+* Payment (for the work) [0/1]
+- [ ] Research Russian & Georgian IE (individual entrepreneur)
