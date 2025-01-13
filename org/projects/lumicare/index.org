@@ -33,6 +33,21 @@
 - [ ] Reasearch usage of [[https://www.npmjs.com/package/opencv-react][OpenCV React]] on a client side
 - [ ] Probably turso could be used for the search. [[https://turso.tech/vector][Official website]]
 - [ ] Find best DB pricing in RF (yandex.ru, selectel.ru, cloud.ru, etc)
-  
-* Payment (for the work) [0/1]
-- [ ] Research Russian & Georgian IE (individual entrepreneur)
+
+* Concept design formalization
+** Skin care recommendation
+Is there a ready to use list of shop items or it should be parsed (how and where from)
+
+** Persist skin type
+Should we offer customers the option to choose their skin type with every request? Requires GOS-62 
+
+** Stories
+Where to get data for the stories and how to add (e.g. google sheets) 
+(feature itself is huge, but I have a believe that v0 could manage by itself)
+
+** Skin care analysis
+When product should be green, yellow or red (proportion of components categories)?
+Should we support bar codes as well? If yes, then shops list is required (probably it's a private info)
+
+** Favorites
+Where and how we can persist client's favorites list? Requires GOS-62 
