@@ -55,6 +55,9 @@ Where and how we can persist client's favorites list? Requires GOS-62
 * Minimal valuable product
 ** Included
 - Design, that just works and looks like one from the demo
+- Straight forward algorithm for the skin care analysis (use simple if else method to categorize given product (green, yellow or red))
+- Simple product reccomendation system (Vector search, requires labeled data product -> skin type & care concerns)
+- Increase analyzed components amount, replace OpenAI with a custom ML solution  
 - Admin panel to manage stories ([[https://miro.medium.com/v2/resize:fit:4800/format:webp/0*IB_Ua8K7mAABvRt-.png][example]]). Stories can show only photos
   - Create/Update/Delete stories
   - Each story consists of:
@@ -62,11 +65,8 @@ Where and how we can persist client's favorites list? Requires GOS-62
     - description (with a link to the 3d party resource)
     - schedule datetime
     - time to live (when it will be hidden)
-- Localization mechanism for the app (ru only) with possibility to add other languages
-- Increase analyzed components amount, replace OpenAI with a custom ML solution
-- Straight forward algorithm for the skin care analysis (use simple if else method to categorize given product (green, yellow or red))
-- Simple product reccomendation system (Vector search, requires labeled data product -> skin type & care concerns)
 - Support chat integration (3d party ready to use service)
+- Localization mechanism for the app (ru only) with possibility to add other languages  
   
 ** Ignored
 - Telegram bot rewrite (leadtech)
