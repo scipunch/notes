@@ -51,3 +51,27 @@ Should we support bar codes as well? If yes, then shops list is required (probab
 
 ** Favorites
 Where and how we can persist client's favorites list? Requires GOS-62 
+
+* Minimal valuable product
+** Included
+- Design, that just works and looks like one from the demo
+- Admin panel to manage stories ([[https://miro.medium.com/v2/resize:fit:4800/format:webp/0*IB_Ua8K7mAABvRt-.png][example]]). Stories can show only photos
+  - Create/Update/Delete stories
+  - Each story consists of:
+     - photo
+     - description (with a link to the 3d party resource)
+     - schedule datetime
+     - time to live (when it will be hidden)
+- Localization mechanism for the app (ru only) with possibility to add other languages
+- Increase analyzed components amount, replace OpenAI with a custom ML solution
+- Straight forward algorithm for the skin care analysis (use simple if else method to categorize given product (green, yellow or red))
+  
+** Ignored
+- Telegram bot rewrite (leadtech)
+- Photo recognition improve (stay with OpenAI vision)
+- Html to image convertion (htmlcsstoimage)
+- Data enrichment (amount & quality). E.g. parsing shops data, additional classification of the existed dataset
+- Favorites list
+
+** Tricky
+- Make.com - We should analyze flows from it and decide, are they available for reuse & improvement or should be rewritten
