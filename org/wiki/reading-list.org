@@ -44,3 +44,6 @@
 - [ ] https://help.openai.com/en/articles/8868588-retrieval-augmented-generation-rag-and-semantic-search-for-gpts
 - [ ] https://cdn.openai.com/spec/model-spec-2024-05-08.html#follow-the-chain-of-command
 - [ ] [[https://arxiv.org/pdf/2305.13062][Table Meets LLM: Can Large Language Models Understand Structured Table Data? A Benchmark and Empirical Study]]
+
+* Note taking [0/1]
+- [ ] https://yannherklotz.com/zettelkasten/
