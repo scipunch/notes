@@ -1,16 +1,23 @@
 #+title: Notes
 #+author: SciPunch
 
-* Goals
-- [[file:global-tasks.org][Global]]
-
-* SciPunch Blog
-- [[file:blog/ideas.org][Ideas]]
-- [[file:blog/wiki.org][Wiki]]
+This is my knowledge & planning custle.
 
 * Wiki
 - [[file:wiki/reading-list.org][Reading list]]
-- [[file:wiki/homelab.org][Home lab]]
+- Watch list
+
+* Wants
+- [[file:wants/career.org][Career]]
+- [[file:wants/study.org][Study]]
+- [[file:wants/health.org][Health]]
+- [[file:wants/entertainment.org][Entertainment]]
+- [[file:wants/purchases.org][Purchaises]]
+
+* Projects
+** Blog
+- [[file:blog/ideas.org][Ideas]]
+- [[file:blog/wiki.org][Wiki]]
 
 * Ideas
 - [[file:event-based-os.org][Event based OS]]
