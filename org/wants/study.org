@@ -1,2 +1,10 @@
 #+title: Study wants
 #+author: SciPunch
+
+* Computer science
+
+* Management
+
+* Languages
+** English
+** Chinese
