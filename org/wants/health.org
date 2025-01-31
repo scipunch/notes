@@ -1,6 +1,20 @@
-#+title: Helath wants
+#+title: Health wants
 #+author: SciPunch
 
+* Schedule
+** TODO Get up
+SCHEDULED: <2025-01-31 7:30 ++1d>
+
+** TODO Lunch
+SCHEDULED: <2025-01-31 11:45-12:45 ++1d>
+
+** TODO Go to bed
+SCHEDULED: <2025-01-31 22:30 ++1d>
+
 * Sports
+** TODO Calisthenics
+SCHEDULED: <2025-01-31 17:00-18:00 ++2d>
 
 * Vitamins
+** TODO Buy complex B methyl
+SCHEDULED: <2025-01-31>

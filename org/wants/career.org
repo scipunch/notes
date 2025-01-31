@@ -1,6 +1,5 @@
 #+title: Career wants
 #+author: SciPunch
 
-* AiShift
-
-* Cyberpass
+* TODO AiShift
+SCHEDULED: <2025-01-31 8:00-11:45 ++1d>

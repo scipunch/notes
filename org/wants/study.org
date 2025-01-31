@@ -2,9 +2,23 @@
 #+author: SciPunch
 
 * Computer science
+** TODO Python
+SCHEDULED: <2025-01-31 18:00-18:30 Thu ++1d>
 
-* Management
+- Best python course
+- Fluent python
+- Standard library packages
+  
+** TODO Operating systems
+SCHEDULED: <2025-01-31 18:30-19:00 Thu ++1d>
+
+** TODO Machine learning
+SCHEDULED: <2025-01-31 19:00-19:30 Thu ++1d>
 
 * Languages
-** English
-** Chinese
+** TODO Chinese basics coursera
+SCHEDULED: <2025-01-31 16:00-17:00 Thu ++1d>
+
+- Memorize pinyin
+- Get familiar with tones
+- Learn 300 words
