@@ -1,7 +1,7 @@
 #+title: Reading list
 #+author: SciPunch
 
-* General [0/20]
+* General [0%]
 - [ ] https://dbdocs.io/
 - [ ] https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf
 - [ ] https://www.usenix.org/system/files/conference/atc13/atc13-bronson.pdf
@@ -23,7 +23,7 @@
 - [ ] https://www.cs.cmu.edu/~crary/819-f09/Landin66.pdf
 - [ ] https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf
 
-* Python [0/8]
+* Python [0%]
 - [ ] https://stackoverflow.com/questions/3392352/python-abcs-registering-vs-subclassing
 - [ ] https://peps.python.org/pep-0353/
 - [ ] https://peps.python.org/pep-3141/
@@ -32,12 +32,13 @@
 - [ ] https://typing.readthedocs.io/en/latest/
 - [ ] https://github.com/sobolevn/the-best-python-course
 - [ ] [[https://youtube.com/playlist?list=PLbr8rVGhPD0WQgO97Ao67Q-QVuSbm_Zpz&si=rHtHnR7ONZlkMnKD][Лучший курс по Python]]
+- [ ] https://pythonhosted.org/actors/api.html
 
-* Algorithms [0/2]
+* Algorithms [0%]
 - [ ] Grep1 https://github.com/gvansickle/ucg/blob/8bbebc002bbf112d147928f89677cba703d007bb/src/FileScanner_sse4_2.cpp#L190
 - [ ] Grep2 https://github.com/BurntSushi/ripgrep/blob/919c5c72994edb378706594f6268542983eeee6d/src/search_stream.rs#L549
 
-* Generative models [0/6]
+* Generative models [0%]
 - [ ] https://github.com/ruvnet/rUv-Enterprise-AI-Guide/
 - [ ] https://www.reddit.com/r/aipromptprogramming/comments/11xmmbt/mastering_chatgpt_prompts_harnessing_zero_one_and/
 - [ ] https://github.com/ruvnet/
@@ -45,5 +46,5 @@
 - [ ] https://cdn.openai.com/spec/model-spec-2024-05-08.html#follow-the-chain-of-command
 - [ ] [[https://arxiv.org/pdf/2305.13062][Table Meets LLM: Can Large Language Models Understand Structured Table Data? A Benchmark and Empirical Study]]
 
-* Note taking [0/1]
+* Note taking [0%]
 - [ ] https://yannherklotz.com/zettelkasten/
